@@ -1,0 +1,55 @@
+[0.954s] Invoking command in '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vim3/myros/12-navigation/navigation_ws/build/dongbot_description -- -j2 -l2
+[1.102s] Invoked command in '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vim3/myros/12-navigation/navigation_ws/build/dongbot_description -- -j2 -l2
+[1.142s] Invoking command in '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vim3/myros/12-navigation/navigation_ws/build/dongbot_description
+[1.189s] -- Install configuration: ""
+[1.189s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/launch
+[1.189s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/launch/display_robot.launch.py
+[1.189s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/launch/gazebo_sim.launch.py
+[1.194s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/launch/__pycache__
+[1.194s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/launch/__pycache__/display_robot.launch.cpython-310.pyc
+[1.195s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf
+[1.195s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/first_robot.gv
+[1.196s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/first_robot.xacro
+[1.196s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot.urdf
+[1.196s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/first_robot.urdf
+[1.197s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/first_robot_try.urdf
+[1.197s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/first_robot.pdf
+[1.202s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot
+[1.202s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/base.urdf.xacro
+[1.202s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/common_intertia.xacro
+[1.203s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/dongbot.urdf.xacro
+[1.203s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/dongbot.ros2_control.xacro
+[1.203s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/actuator
+[1.204s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/actuator/caster.urdf.xacro
+[1.204s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/actuator/wheel.urdf.xacro
+[1.210s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/sensor
+[1.211s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/sensor/camera.urdf.xacro
+[1.212s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/sensor/laser.urdf.xacro
+[1.212s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/sensor/imu.urdf.xacro
+[1.212s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/plugins
+[1.212s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/plugins/gazebo_sensor_plugin.xacro
+[1.212s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/plugins/gazebo_control_plugin.xacro
+[1.212s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/config
+[1.212s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/config/dongbot_config.rviz
+[1.213s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/config/dongbot_ros2_controller.yaml
+[1.213s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/world
+[1.213s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/world/room
+[1.213s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/world/room/model.config
+[1.213s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/world/room/model.sdf
+[1.213s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/world/nav_room.world
+[1.213s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/ament_index/resource_index/package_run_dependencies/dongbot_description
+[1.213s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/ament_index/resource_index/parent_prefix_path/dongbot_description
+[1.217s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/environment/ament_prefix_path.sh
+[1.218s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/environment/ament_prefix_path.dsv
+[1.218s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/environment/path.sh
+[1.218s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/environment/path.dsv
+[1.218s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/local_setup.bash
+[1.222s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/local_setup.sh
+[1.222s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/local_setup.zsh
+[1.223s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/local_setup.dsv
+[1.223s] -- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/package.dsv
+[1.223s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/ament_index/resource_index/packages/dongbot_description
+[1.226s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/cmake/dongbot_descriptionConfig.cmake
+[1.227s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/cmake/dongbot_descriptionConfig-version.cmake
+[1.227s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/package.xml
+[1.231s] Invoked command in '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vim3/myros/12-navigation/navigation_ws/build/dongbot_description

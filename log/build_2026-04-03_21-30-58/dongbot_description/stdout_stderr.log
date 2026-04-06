@@ -1,0 +1,73 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vim3/myros/12-navigation/navigation_ws/build/dongbot_description
+-- Install configuration: ""
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/launch
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/launch/display_robot.launch.py
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/launch/gazebo_sim.launch.py
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/launch/__pycache__
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/launch/__pycache__/display_robot.launch.cpython-310.pyc
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/first_robot.gv
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/first_robot.xacro
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot.urdf
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/first_robot.urdf
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/first_robot_try.urdf
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/first_robot.pdf
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/base.urdf.xacro
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/common_intertia.xacro
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/dongbot.urdf.xacro
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/dongbot.ros2_control.xacro
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/actuator
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/actuator/caster.urdf.xacro
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/actuator/wheel.urdf.xacro
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/sensor
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/sensor/camera.urdf.xacro
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/sensor/laser.urdf.xacro
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/sensor/imu.urdf.xacro
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/plugins
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/plugins/gazebo_sensor_plugin.xacro
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/plugins/gazebo_control_plugin.xacro
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/config
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/config/dongbot_config.rviz
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/config/dongbot_ros2_controller.yaml
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/world
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/world/custom_room.world
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/world/room
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/world/room/model.config
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/world/room/model.sdf
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/ament_index/resource_index/package_run_dependencies/dongbot_description
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/ament_index/resource_index/parent_prefix_path/dongbot_description
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/environment/ament_prefix_path.sh
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/environment/ament_prefix_path.dsv
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/environment/path.sh
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/environment/path.dsv
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/local_setup.bash
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/local_setup.sh
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/local_setup.zsh
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/local_setup.dsv
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/package.dsv
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/ament_index/resource_index/packages/dongbot_description
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/cmake/dongbot_descriptionConfig.cmake
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/cmake/dongbot_descriptionConfig-version.cmake
+-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/package.xml

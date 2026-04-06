@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="dongbot">
+<!-- 包含文件 find dongbot_description 为找到功能包的路径 -->
+<!-- 基础部分 base_link -->
+<xacro:include filename="$(find dongbot_description)/urdf/dongbot/base.urdf.xacro"/>
+<!-- 传感器部分 -->
+<xacro:include filename="$(find dongbot_description)/urdf/dongbot/sensor/laser.urdf.xacro"/>
+<xacro:include filename="$(find dongbot_description)/urdf/dongbot/sensor/imu.urdf.xacro"/>
+<xacro:include filename="$(find dongbot_description)/urdf/dongbot/sensor/camera.urdf.xacro"/>
+<!-- 执行器部分 -->
+<xacro:include filename="$(find dongbot_description)/urdf/dongbot/actuator/wheel.urdf.xacro"/>
+<xacro:include filename="$(find dongbot_description)/urdf/dongbot/actuator/caster.urdf.xacro"/>
+<!-- 插件 -->
+<xacro:include filename="$(find dongbot_description)/urdf/dongbot/plugins/gazebo_control_plugin.xacro"/>
+<xacro:include filename="$(find dongbot_description)/urdf/dongbot/plugins/gazebo_sensor_plugin.xacro"/>
+<xacro:include filename="$(find dongbot_description)/urdf/dongbot/dongbot.ros2_control.xacro"/>
+
+<!-- 从导入的宏 创建机器人的身体 -->
+<!-- 创建基础 -->
+<xacro:base_xacro length="0.12" radius="0.10"/>
+
+<!-- 创建传感器 -->
+<xacro:imu_xacro xyz="0.0 0.0 0.02"/>
+<xacro:camera_xacro xyz="0.1 0.0 0.075"/>
+<xacro:laser_xacro xyz="0.0 0.0 0.11"/>
+
+<!-- 创建执行器 -->
+<xacro:wheel_xacro wheel_name="left_wheel" xyz="0 0.10 -0.06"/>
+<xacro:wheel_xacro wheel_name="right_wheel" xyz="0 -0.10 -0.06"/>
+<xacro:caster_xacro caster_name="front_wheel" xyz="0.08 0 -0.076"/>
+<xacro:caster_xacro caster_name="back_wheel" xyz="-0.08 0 -0.076"/>
+
+<!-- 创建传感器 -->
+<!-- <xacro:gazebo_control_plugin/> -->
+<xacro:gazebo_sensor_plugin/>
+
+<!-- 使用ros2_control -->
+<xacro:dongbot_ros2_control/>
+
+</robot>

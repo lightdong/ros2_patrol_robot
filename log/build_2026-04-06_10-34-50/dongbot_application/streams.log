@@ -1,0 +1,31 @@
+[2.559s] Invoking command in '/home/vim3/myros/12-navigation/navigation_ws/src/dongbot_application': PYTHONPATH=/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dongbot_application build --build-base /home/vim3/myros/12-navigation/navigation_ws/build/dongbot_application/build install --record /home/vim3/myros/12-navigation/navigation_ws/build/dongbot_application/install.log --single-version-externally-managed install_data
+[3.358s] running egg_info
+[3.358s] writing ../../build/dongbot_application/dongbot_application.egg-info/PKG-INFO
+[3.361s] writing dependency_links to ../../build/dongbot_application/dongbot_application.egg-info/dependency_links.txt
+[3.363s] writing entry points to ../../build/dongbot_application/dongbot_application.egg-info/entry_points.txt
+[3.363s] writing requirements to ../../build/dongbot_application/dongbot_application.egg-info/requires.txt
+[3.364s] writing top-level names to ../../build/dongbot_application/dongbot_application.egg-info/top_level.txt
+[3.371s] reading manifest file '../../build/dongbot_application/dongbot_application.egg-info/SOURCES.txt'
+[3.372s] adding license file 'LICENSE'
+[3.375s] writing manifest file '../../build/dongbot_application/dongbot_application.egg-info/SOURCES.txt'
+[3.376s] running build
+[3.376s] running build_py
+[3.376s] copying dongbot_application/nav_to_pose.py -> /home/vim3/myros/12-navigation/navigation_ws/build/dongbot_application/build/lib/dongbot_application
+[3.383s] copying dongbot_application/waypoint_flollower.py -> /home/vim3/myros/12-navigation/navigation_ws/build/dongbot_application/build/lib/dongbot_application
+[3.383s] running install
+[3.384s] running install_lib
+[3.384s] copying /home/vim3/myros/12-navigation/navigation_ws/build/dongbot_application/build/lib/dongbot_application/nav_to_pose.py -> /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/python3.10/site-packages/dongbot_application
+[3.386s] copying /home/vim3/myros/12-navigation/navigation_ws/build/dongbot_application/build/lib/dongbot_application/waypoint_flollower.py -> /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/python3.10/site-packages/dongbot_application
+[3.389s] byte-compiling /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/python3.10/site-packages/dongbot_application/nav_to_pose.py to nav_to_pose.cpython-310.pyc
+[3.393s] byte-compiling /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/python3.10/site-packages/dongbot_application/waypoint_flollower.py to waypoint_flollower.cpython-310.pyc
+[3.394s] running install_data
+[3.394s] running install_egg_info
+[3.397s] removing '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/python3.10/site-packages/dongbot_application-0.0.0-py3.10.egg-info' (and everything under it)
+[3.399s] Copying ../../build/dongbot_application/dongbot_application.egg-info to /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/python3.10/site-packages/dongbot_application-0.0.0-py3.10.egg-info
+[3.402s] running install_scripts
+[3.466s] Installing get_robot_pose script to /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/dongbot_application
+[3.466s] Installing init_robot_pose script to /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/dongbot_application
+[3.466s] Installing nav_to_pose script to /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/dongbot_application
+[3.467s] Installing waypoint_flollower script to /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/dongbot_application
+[3.470s] writing list of installed files to '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_application/install.log'
+[3.529s] Invoked command in '/home/vim3/myros/12-navigation/navigation_ws/src/dongbot_application' returned '0': PYTHONPATH=/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dongbot_application build --build-base /home/vim3/myros/12-navigation/navigation_ws/build/dongbot_application/build install --record /home/vim3/myros/12-navigation/navigation_ws/build/dongbot_application/install.log --single-version-externally-managed install_data
