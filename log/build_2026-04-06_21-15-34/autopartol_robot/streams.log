@@ -1,0 +1,37 @@
+[2.916s] Invoking command in '/home/vim3/myros/12-navigation/navigation_ws/src/autopartol_robot': PYTHONPATH=/home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopartol_robot build --build-base /home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/build install --record /home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/install.log --single-version-externally-managed install_data
+[3.691s] running egg_info
+[3.694s] creating ../../build/autopartol_robot/autopartol_robot.egg-info
+[3.694s] writing ../../build/autopartol_robot/autopartol_robot.egg-info/PKG-INFO
+[3.694s] writing dependency_links to ../../build/autopartol_robot/autopartol_robot.egg-info/dependency_links.txt
+[3.694s] writing entry points to ../../build/autopartol_robot/autopartol_robot.egg-info/entry_points.txt
+[3.699s] writing requirements to ../../build/autopartol_robot/autopartol_robot.egg-info/requires.txt
+[3.699s] writing top-level names to ../../build/autopartol_robot/autopartol_robot.egg-info/top_level.txt
+[3.699s] writing manifest file '../../build/autopartol_robot/autopartol_robot.egg-info/SOURCES.txt'
+[3.699s] reading manifest file '../../build/autopartol_robot/autopartol_robot.egg-info/SOURCES.txt'
+[3.702s] writing manifest file '../../build/autopartol_robot/autopartol_robot.egg-info/SOURCES.txt'
+[3.703s] running build
+[3.706s] running build_py
+[3.707s] creating /home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/build
+[3.709s] creating /home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/build/lib
+[3.709s] creating /home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/build/lib/autopartol_robot
+[3.709s] copying autopartol_robot/partol_node.py -> /home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/build/lib/autopartol_robot
+[3.710s] copying autopartol_robot/__init__.py -> /home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/build/lib/autopartol_robot
+[3.710s] running install
+[3.710s] running install_lib
+[3.710s] creating /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot
+[3.710s] copying /home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/build/lib/autopartol_robot/partol_node.py -> /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot
+[3.719s] copying /home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/build/lib/autopartol_robot/__init__.py -> /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot
+[3.719s] byte-compiling /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot/partol_node.py to partol_node.cpython-310.pyc
+[3.724s] byte-compiling /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot/__init__.py to __init__.cpython-310.pyc
+[3.724s] running install_data
+[3.725s] creating /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/share/ament_index
+[3.725s] creating /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/share/ament_index/resource_index
+[3.725s] creating /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/share/ament_index/resource_index/packages
+[3.729s] copying resource/autopartol_robot -> /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/share/ament_index/resource_index/packages
+[3.730s] copying package.xml -> /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/share/autopartol_robot
+[3.730s] running install_egg_info
+[3.731s] Copying ../../build/autopartol_robot/autopartol_robot.egg-info to /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot-0.0.0-py3.10.egg-info
+[3.731s] running install_scripts
+[3.784s] Installing partol_node script to /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/autopartol_robot
+[3.784s] writing list of installed files to '/home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/install.log'
+[3.837s] Invoked command in '/home/vim3/myros/12-navigation/navigation_ws/src/autopartol_robot' returned '0': PYTHONPATH=/home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopartol_robot build --build-base /home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/build install --record /home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/install.log --single-version-externally-managed install_data

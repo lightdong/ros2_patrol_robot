@@ -1,0 +1,27 @@
+[0.307s] Invoking command in '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot:/home/vim3/myros/12-navigation/navigation_ws/src/install/dongbot_application:/home/vim3/myros/12-navigation/navigation_ws/src/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/vim3/myros/12-navigation/navigation_ws/build/dongbot_nav -- -j2 -l2
+[1.704s] Invoked command in '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot:/home/vim3/myros/12-navigation/navigation_ws/src/install/dongbot_application:/home/vim3/myros/12-navigation/navigation_ws/src/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/vim3/myros/12-navigation/navigation_ws/build/dongbot_nav -- -j2 -l2
+[1.766s] Invoking command in '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot:/home/vim3/myros/12-navigation/navigation_ws/src/install/dongbot_application:/home/vim3/myros/12-navigation/navigation_ws/src/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/vim3/myros/12-navigation/navigation_ws/build/dongbot_nav
+[1.893s] -- Install configuration: ""
+[1.906s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/launch
+[1.907s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/launch/navigation2.launch.py
+[1.907s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/config
+[1.909s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/config/nav2_params.yaml
+[1.937s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/maps
+[1.937s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/maps/room.yaml
+[1.937s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/maps/room.pgm
+[1.937s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/ament_index/resource_index/package_run_dependencies/dongbot_nav
+[1.937s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/ament_index/resource_index/parent_prefix_path/dongbot_nav
+[1.938s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/environment/ament_prefix_path.sh
+[1.954s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/environment/ament_prefix_path.dsv
+[1.970s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/environment/path.sh
+[1.971s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/environment/path.dsv
+[1.971s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/local_setup.bash
+[1.999s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/local_setup.sh
+[1.999s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/local_setup.zsh
+[1.999s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/local_setup.dsv
+[2.000s] -- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/package.dsv
+[2.000s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/ament_index/resource_index/packages/dongbot_nav
+[2.000s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/cmake/dongbot_navConfig.cmake
+[2.034s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/cmake/dongbot_navConfig-version.cmake
+[2.040s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/package.xml
+[2.124s] Invoked command in '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot:/home/vim3/myros/12-navigation/navigation_ws/src/install/dongbot_application:/home/vim3/myros/12-navigation/navigation_ws/src/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/vim3/myros/12-navigation/navigation_ws/build/dongbot_nav
