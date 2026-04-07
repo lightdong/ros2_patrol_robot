@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "autopatrol_interfaces__py",
+		"source" : "/home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces/autopatrol_interfaces__py"
+	}
+}

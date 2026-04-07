@@ -1,0 +1,6 @@
+{
+  "package_name": "autopatrol_interfaces",
+  "non_idl_tuples": [
+    "/home/vim3/myros/12-navigation/navigation_ws/src/autopatrol_interfaces:srv/SpeechText.srv"
+  ]
+}

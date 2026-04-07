@@ -10,7 +10,9 @@ setup.py
 ../../build/autopartol_robot/autopartol_robot.egg-info/zip-safe
 autopartol_robot/__init__.py
 autopartol_robot/partol_node.py
+autopartol_robot/speaker.py
 config/partol_config.yaml
+launch/autopatrol.launch.py
 resource/autopartol_robot
 test/test_copyright.py
 test/test_flake8.py

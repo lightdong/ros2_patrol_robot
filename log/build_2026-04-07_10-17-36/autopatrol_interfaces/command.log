@@ -1,0 +1,2 @@
+Invoking command in '/home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces': /usr/bin/cmake /home/vim3/myros/12-navigation/navigation_ws/src/autopatrol_interfaces -DCMAKE_INSTALL_PREFIX=/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces
+Invoked command in '/home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces' returned '1': /usr/bin/cmake /home/vim3/myros/12-navigation/navigation_ws/src/autopatrol_interfaces -DCMAKE_INSTALL_PREFIX=/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces
