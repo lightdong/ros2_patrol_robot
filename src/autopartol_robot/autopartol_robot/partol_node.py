@@ -10,6 +10,10 @@ import math # 角度转弧度函数
 
 from autopatrol_interfaces.srv import SpeechText # 导入自定义消息接口
 
+from sensor_msgs.msg import Image # 消息接口
+from cv_bridge import CvBridge # 转换图像格式
+import cv2 # 保存图像
+
 
 # 继承BasicNavigator的原因是，BasicNavigator本身也是继承自Node，这样的话PartolNode的功能更多
 # 继承BasicNavigator 就可以使用BasicNavigator中封装好的方法
@@ -19,16 +23,38 @@ class PartolNode(BasicNavigator):
         # 声明相关参数
         self.declare_parameter('initila_point',[0.0,0.0,0.0])
         self.declare_parameter('target_points',[0.0,0.0,0.0,1.0,1.0,1.57])
+        # 声明一个订阅图片保存的默认路径
+        self.declare_parameter('save_image_path', '') # 默认值为当前路径
         # 最后加一个下划线 表示这是类里面的一个变量
         # 把初始化点 与 目标点集合 提取成参数 可以使用文件来表示
         self.initial_point_ = self.get_parameter('initila_point').value
         self.target_points_ = self.get_parameter('target_points').value
+        self.save_image_path_ = self.get_parameter('save_image_path').value
         # Buffer来存储监听者 监听到的机器人坐标
         self.buffer_ = Buffer()
         self.listener_ = TransformListener(self.buffer_, self)
-
         self.speech_client_ = self.create_client(SpeechText, 'speech_text') # 名称一定要与服务端完全一致
-    
+
+        self.cv_bridge_ = CvBridge() # 创建一个CvBridge对象 用于图像格式转换
+        self.latest_img_ = None # 用于存储最新的图像数据
+
+        # 订阅从传感器接口接收数据
+        self.img_sub_= self.create_subscription(Image, '/camera_sensor/image_raw', self.imgcallback,1)
+
+    def imgcallback(self, msg):
+        self.latest_img_ = msg # 当有数据时直接把数据存储到类变量latest_img_中 
+
+    # 把图像转换成openCV格式的图像 保存到指定的目录去
+    def record_img(self):
+        if self.latest_img_ is not None:
+            pose = self.get_current_pose() # 获取当前位姿
+            cv_image = self.cv_bridge_.imgmsg_to_cv2(self.latest_img_) # 转换成openCV格式的图像
+            cv2.imwrite(
+                f'{self.save_image_path_}img_{pose.translation.x:3.2f}_{pose.translation.y:3.2f}.png',
+                cv_image
+            )
+
+
     def get_pose_by_xyyaw(self,x,y,yaw):
         """
         return PoseStamped对象
@@ -153,6 +179,9 @@ def main():
             target_pose = patrol.get_pose_by_xyyaw(x,y,yaw)
             patrol.speech_text(f'正在准备前往到{x},{y}目标点')
             patrol.nav_to_pose(target_pose)
+            patrol.speech_text(f'已经到达{x},{y}目标点,正准备记录图像')
+            patrol.record_img() # 记录图像
+            patrol.speech_text(f'图像记录完成')
 
     # 不需要下面的两个是因为BasicNavigator有很多spin
     # rclpy.spin(nav)
