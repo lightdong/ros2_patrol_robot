@@ -1,10 +1,13 @@
+/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot/speaker.py
 /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot/partol_node.py
 /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot/__init__.py
+/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot/__pycache__/speaker.cpython-310.pyc
 /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot/__pycache__/partol_node.cpython-310.pyc
 /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot/__pycache__/__init__.cpython-310.pyc
 /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/share/ament_index/resource_index/packages/autopartol_robot
 /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/share/autopartol_robot/package.xml
-/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/share/autopartol_robotconfig/partol_config.yaml
+/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/share/autopartol_robot/launch/autopatrol.launch.py
+/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/share/autopartol_robot/config/partol_config.yaml
 /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot-0.0.0-py3.10.egg-info/dependency_links.txt
 /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot-0.0.0-py3.10.egg-info/zip-safe
 /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot-0.0.0-py3.10.egg-info/SOURCES.txt
@@ -13,3 +16,4 @@
 /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot-0.0.0-py3.10.egg-info/PKG-INFO
 /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot-0.0.0-py3.10.egg-info/requires.txt
 /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/autopartol_robot/partol_node
+/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/autopartol_robot/speaker

@@ -8,6 +8,8 @@ from tf2_ros import TransformListener, Buffer # 坐标监听器
 from tf_transformations import euler_from_quaternion,quaternion_from_euler# 四元数转欧拉角函数
 import math # 角度转弧度函数
 
+from autopatrol_interfaces.srv import SpeechText # 导入自定义消息接口
+
 
 # 继承BasicNavigator的原因是，BasicNavigator本身也是继承自Node，这样的话PartolNode的功能更多
 # 继承BasicNavigator 就可以使用BasicNavigator中封装好的方法
@@ -24,6 +26,8 @@ class PartolNode(BasicNavigator):
         # Buffer来存储监听者 监听到的机器人坐标
         self.buffer_ = Buffer()
         self.listener_ = TransformListener(self.buffer_, self)
+
+        self.speech_client_ = self.create_client(SpeechText, 'speech_text') # 名称一定要与服务端完全一致
     
     def get_pose_by_xyyaw(self,x,y,yaw):
         """
@@ -100,6 +104,28 @@ class PartolNode(BasicNavigator):
             except Exception as e:
                 self.get_logger().warn(f"不能够获取坐标变换，原因: {str(e)}")
 
+    def speech_text(self,text):
+        """
+        调用服务合成语音
+        """
+        # 等待服务端上线
+        while not self.speech_client_.wait_for_service(timeout_sec=1.0):
+            self.get_logger().warn('语音合成服务未上线，等待中...')
+        # 创建服务请求对象并赋值  对象可以根据消息类型srv中来看
+        request = SpeechText.Request()
+        request.text = text
+
+        # 得到服务响应对象
+        future = self.speech_client_.call_async(request) # 异步等待不阻塞这个节点
+        rclpy.spin_until_future_complete(self,future) # 等待服务响应完成
+        if future.result() is not None:
+            response = future.result()
+            if response.result == True:
+                self.get_logger().info(f'语音合成成功{text}')
+            else:
+                self.get_logger().warn(f'语音合成失败{text}')
+        else:
+            self.get_logger().warn(f'语音服务响应失败')
 def main():
 
     # 初始化
@@ -111,8 +137,11 @@ def main():
     # rclpy.spin(patrol)
 
     # 1. 初始化机器人位姿
-    patrol.init_robot_pose()
 
+    patrol.speech_text('正在准备初始化位置')
+    patrol.init_robot_pose()
+    patrol.speech_text('位置初始化完成')
+    
     while rclpy.ok():
         # 2. 获取目标点集合
         target_points = patrol.get_target_points()
@@ -122,6 +151,7 @@ def main():
         for point in target_points:
             x,y,yaw = point[0],point[1],point[2]
             target_pose = patrol.get_pose_by_xyyaw(x,y,yaw)
+            patrol.speech_text(f'正在准备前往到{x},{y}目标点')
             patrol.nav_to_pose(target_pose)
 
     # 不需要下面的两个是因为BasicNavigator有很多spin

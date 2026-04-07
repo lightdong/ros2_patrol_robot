@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2e09cf0639199a57ea9e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "autopatrol_interfaces__py",
+					"jsonFile" : "directory-autopatrol_interfaces__py-7f9a2b4d43d709d76e56.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces/autopatrol_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "autopatrol_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_autopatrol_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_autopatrol_interfaces_egg-f1fae06415496f79c022.json",
+					"name" : "ament_cmake_python_build_autopatrol_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_autopatrol_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_autopatrol_interfaces-dcb72fc0fa85c8d0b319.json",
+					"name" : "ament_cmake_python_copy_autopatrol_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopatrol_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopatrol_interfaces-f58b6113c9c98ac3e92b.json",
+					"name" : "autopatrol_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopatrol_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopatrol_interfaces__cpp-614fe84a85c58b63d01c.json",
+					"name" : "autopatrol_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "autopatrol_interfaces__py::@daea517bfc635a99bd1b",
+					"jsonFile" : "target-autopatrol_interfaces__py-1227a4aa68fe25151671.json",
+					"name" : "autopatrol_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopatrol_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopatrol_interfaces__rosidl_generator_c-c5afb070b83326d6e062.json",
+					"name" : "autopatrol_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopatrol_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopatrol_interfaces__rosidl_generator_py-0894dcacc8e806086b34.json",
+					"name" : "autopatrol_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopatrol_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopatrol_interfaces__rosidl_typesupport_c-04b48bee88fa66d5e77b.json",
+					"name" : "autopatrol_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopatrol_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopatrol_interfaces__rosidl_typesupport_c__pyext-8fff29d5141f60623429.json",
+					"name" : "autopatrol_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopatrol_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopatrol_interfaces__rosidl_typesupport_cpp-b98661fe72729e0f9092.json",
+					"name" : "autopatrol_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopatrol_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopatrol_interfaces__rosidl_typesupport_fastrtps_c-2e99d668cdc7cb577ee3.json",
+					"name" : "autopatrol_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopatrol_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopatrol_interfaces__rosidl_typesupport_fastrtps_c__pyext-2e7a7368f28b778b4cba.json",
+					"name" : "autopatrol_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopatrol_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopatrol_interfaces__rosidl_typesupport_fastrtps_cpp-d0f45820f85a401c6a53.json",
+					"name" : "autopatrol_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopatrol_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopatrol_interfaces__rosidl_typesupport_introspection_c-fbb0281a87dade24dd71.json",
+					"name" : "autopatrol_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopatrol_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopatrol_interfaces__rosidl_typesupport_introspection_c__pyext-aabb6de5007bef903533.json",
+					"name" : "autopatrol_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopatrol_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopatrol_interfaces__rosidl_typesupport_introspection_cpp-b2405f87a07cf34f2daa.json",
+					"name" : "autopatrol_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopatrol_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopatrol_interfaces_uninstall-364a6261e867d2d9abd7.json",
+					"name" : "autopatrol_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-681d6edcd4bdc567b38c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces",
+		"source" : "/home/vim3/myros/12-navigation/navigation_ws/src/autopatrol_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

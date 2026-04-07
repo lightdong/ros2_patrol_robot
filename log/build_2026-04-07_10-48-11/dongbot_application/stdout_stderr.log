@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/dongbot_application/dongbot_application.egg-info/PKG-INFO
+writing dependency_links to ../../build/dongbot_application/dongbot_application.egg-info/dependency_links.txt
+writing entry points to ../../build/dongbot_application/dongbot_application.egg-info/entry_points.txt
+writing requirements to ../../build/dongbot_application/dongbot_application.egg-info/requires.txt
+writing top-level names to ../../build/dongbot_application/dongbot_application.egg-info/top_level.txt
+reading manifest file '../../build/dongbot_application/dongbot_application.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/dongbot_application/dongbot_application.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/python3.10/site-packages/dongbot_application-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/dongbot_application/dongbot_application.egg-info to /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/python3.10/site-packages/dongbot_application-0.0.0-py3.10.egg-info
+running install_scripts
+Installing get_robot_pose script to /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/dongbot_application
+Installing init_robot_pose script to /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/dongbot_application
+Installing nav_to_pose script to /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/dongbot_application
+Installing waypoint_flollower script to /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/dongbot_application
+writing list of installed files to '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_application/install.log'

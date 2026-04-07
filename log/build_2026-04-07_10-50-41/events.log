@@ -1,0 +1,645 @@
+[0.000000] (-) TimerEvent: {}
+[0.006816] (autopartol_robot) JobQueued: {'identifier': 'autopartol_robot', 'dependencies': OrderedDict()}
+[0.007119] (autopatrol_interfaces) JobQueued: {'identifier': 'autopatrol_interfaces', 'dependencies': OrderedDict()}
+[0.007560] (dongbot_application) JobQueued: {'identifier': 'dongbot_application', 'dependencies': OrderedDict()}
+[0.007773] (dongbot_description) JobQueued: {'identifier': 'dongbot_description', 'dependencies': OrderedDict()}
+[0.007972] (dongbot_nav) JobQueued: {'identifier': 'dongbot_nav', 'dependencies': OrderedDict()}
+[0.011548] (autopartol_robot) JobStarted: {'identifier': 'autopartol_robot'}
+[0.100082] (-) TimerEvent: {}
+[0.108633] (autopatrol_interfaces) JobStarted: {'identifier': 'autopatrol_interfaces'}
+[0.200675] (-) TimerEvent: {}
+[0.306869] (-) TimerEvent: {}
+[0.413035] (-) TimerEvent: {}
+[0.519461] (-) TimerEvent: {}
+[0.623075] (-) TimerEvent: {}
+[0.724672] (-) TimerEvent: {}
+[0.831078] (-) TimerEvent: {}
+[0.936840] (-) TimerEvent: {}
+[1.042677] (-) TimerEvent: {}
+[1.146453] (-) TimerEvent: {}
+[1.253855] (-) TimerEvent: {}
+[1.363696] (-) TimerEvent: {}
+[1.465695] (-) TimerEvent: {}
+[1.569800] (-) TimerEvent: {}
+[1.672687] (-) TimerEvent: {}
+[1.775637] (-) TimerEvent: {}
+[1.879628] (-) TimerEvent: {}
+[1.985808] (-) TimerEvent: {}
+[2.092707] (-) TimerEvent: {}
+[2.199710] (-) TimerEvent: {}
+[2.306140] (-) TimerEvent: {}
+[2.411479] (-) TimerEvent: {}
+[2.523071] (-) TimerEvent: {}
+[2.625859] (-) TimerEvent: {}
+[2.728706] (-) TimerEvent: {}
+[2.832768] (-) TimerEvent: {}
+[2.938734] (-) TimerEvent: {}
+[3.050724] (-) TimerEvent: {}
+[3.155702] (-) TimerEvent: {}
+[3.262730] (-) TimerEvent: {}
+[3.367727] (-) TimerEvent: {}
+[3.476069] (-) TimerEvent: {}
+[3.565580] (autopatrol_interfaces) JobProgress: {'identifier': 'autopatrol_interfaces', 'progress': 'cmake'}
+[3.572631] (autopatrol_interfaces) JobProgress: {'identifier': 'autopatrol_interfaces', 'progress': 'build'}
+[3.583052] (autopatrol_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'vim3'), ('SSH_CLIENT', '192.168.30.1 64414 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/vim3'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/vim3/myros/12-navigation/navigation_ws/src'), ('TERM_PROGRAM_VERSION', '1.111.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f16cc6ac-6e77-4dbc-8ff3-00100ca62f5f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/vim3/myros/12-navigation/navigation_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vim3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '27'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/vim3/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/vim3/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/bin/remote-cli:/home/vim3/.local/bin:/opt/ros/humble/bin:/home/vim3/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-927850e8b6c94c5f.txt'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/vim3/.vscode-server/data/User/workspaceStorage/c70190345c6b94d4ed795adde9396c8d/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-faa41afe24.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application:/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/vim3/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces'), ('CONDA_EXE', '/home/vim3/anaconda3/bin/conda'), ('SSH_CONNECTION', '192.168.30.1 64414 192.168.30.133 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/python3.10/site-packages:/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description:/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot:/opt/ros/humble')]), 'shell': False}
+[3.644529] (-) TimerEvent: {}
+[3.763834] (-) TimerEvent: {}
+[3.875699] (-) TimerEvent: {}
+[3.983677] (-) TimerEvent: {}
+[4.094682] (-) TimerEvent: {}
+[4.202615] (-) TimerEvent: {}
+[4.310764] (-) TimerEvent: {}
+[4.416001] (-) TimerEvent: {}
+[4.526533] (-) TimerEvent: {}
+[4.632160] (-) TimerEvent: {}
+[4.740073] (-) TimerEvent: {}
+[4.846842] (-) TimerEvent: {}
+[4.956601] (-) TimerEvent: {}
+[5.065666] (-) TimerEvent: {}
+[5.181100] (-) TimerEvent: {}
+[5.289508] (-) TimerEvent: {}
+[5.395972] (-) TimerEvent: {}
+[5.504850] (-) TimerEvent: {}
+[5.611098] (-) TimerEvent: {}
+[5.719074] (-) TimerEvent: {}
+[5.753626] (autopatrol_interfaces) StdoutLine: {'line': b'[  3%] Built target autopatrol_interfaces__cpp\n'}
+[5.821940] (-) TimerEvent: {}
+[5.927973] (-) TimerEvent: {}
+[6.036673] (-) TimerEvent: {}
+[6.146751] (-) TimerEvent: {}
+[6.253233] (-) TimerEvent: {}
+[6.361500] (-) TimerEvent: {}
+[6.471733] (-) TimerEvent: {}
+[6.574185] (-) TimerEvent: {}
+[6.613644] (autopatrol_interfaces) StdoutLine: {'line': b'[ 12%] Built target autopatrol_interfaces__rosidl_generator_c\n'}
+[6.678057] (-) TimerEvent: {}
+[6.785635] (-) TimerEvent: {}
+[6.900759] (-) TimerEvent: {}
+[7.006668] (-) TimerEvent: {}
+[7.113797] (-) TimerEvent: {}
+[7.230860] (-) TimerEvent: {}
+[7.332621] (-) TimerEvent: {}
+[7.436598] (-) TimerEvent: {}
+[7.547039] (-) TimerEvent: {}
+[7.652819] (-) TimerEvent: {}
+[7.759740] (-) TimerEvent: {}
+[7.795962] (autopatrol_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_autopatrol_interfaces\n'}
+[7.867124] (-) TimerEvent: {}
+[7.971901] (-) TimerEvent: {}
+[8.074831] (-) TimerEvent: {}
+[8.186696] (-) TimerEvent: {}
+[8.296763] (-) TimerEvent: {}
+[8.404121] (-) TimerEvent: {}
+[8.511690] (-) TimerEvent: {}
+[8.625851] (-) TimerEvent: {}
+[8.628583] (autopatrol_interfaces) StdoutLine: {'line': b'[ 22%] Built target autopatrol_interfaces__rosidl_typesupport_cpp\n'}
+[8.726687] (-) TimerEvent: {}
+[8.833833] (-) TimerEvent: {}
+[8.942829] (-) TimerEvent: {}
+[9.046666] (-) TimerEvent: {}
+[9.150589] (-) TimerEvent: {}
+[9.260661] (-) TimerEvent: {}
+[9.363817] (-) TimerEvent: {}
+[9.467827] (-) TimerEvent: {}
+[9.582834] (-) TimerEvent: {}
+[9.686866] (-) TimerEvent: {}
+[9.704623] (autopatrol_interfaces) StdoutLine: {'line': b'[ 32%] Built target autopatrol_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[9.791843] (-) TimerEvent: {}
+[9.901593] (-) TimerEvent: {}
+[10.006779] (-) TimerEvent: {}
+[10.120975] (-) TimerEvent: {}
+[10.225578] (-) TimerEvent: {}
+[10.341772] (-) TimerEvent: {}
+[10.447814] (-) TimerEvent: {}
+[10.556802] (-) TimerEvent: {}
+[10.665776] (-) TimerEvent: {}
+[10.670678] (autopatrol_interfaces) StdoutLine: {'line': b'[ 41%] Built target autopatrol_interfaces__rosidl_typesupport_introspection_c\n'}
+[10.768620] (-) TimerEvent: {}
+[10.876845] (-) TimerEvent: {}
+[10.985058] (-) TimerEvent: {}
+[11.091717] (-) TimerEvent: {}
+[11.199773] (-) TimerEvent: {}
+[11.306782] (-) TimerEvent: {}
+[11.417603] (-) TimerEvent: {}
+[11.524719] (-) TimerEvent: {}
+[11.596901] (autopatrol_interfaces) StdoutLine: {'line': b'[ 51%] Built target autopatrol_interfaces__rosidl_typesupport_c\n'}
+[11.628918] (-) TimerEvent: {}
+[11.732580] (-) TimerEvent: {}
+[11.848031] (-) TimerEvent: {}
+[11.952032] (-) TimerEvent: {}
+[12.069541] (-) TimerEvent: {}
+[12.147540] (autopartol_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/autopartol_robot', 'build', '--build-base', '/home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/build', 'install', '--record', '/home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vim3/myros/12-navigation/navigation_ws/src/autopartol_robot', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:zh', 'USER': 'vim3', 'SSH_CLIENT': '192.168.30.1 64414 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/vim3', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/vim3/myros/12-navigation/navigation_ws/src', 'TERM_PROGRAM_VERSION': '1.111.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-f16cc6ac-6e77-4dbc-8ff3-00100ca62f5f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'COLCON_PREFIX_PATH': '/home/vim3/myros/12-navigation/navigation_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vim3', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '27', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/vim3/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/vim3/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/bin/remote-cli:/home/vim3/.local/bin:/opt/ros/humble/bin:/home/vim3/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-927850e8b6c94c5f.txt', 'LANG': 'zh_CN.UTF-8', 'PYTHONSTARTUP': '/home/vim3/.vscode-server/data/User/workspaceStorage/c70190345c6b94d4ed795adde9396c8d/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-faa41afe24.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application:/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/vim3/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot', 'CONDA_EXE': '/home/vim3/anaconda3/bin/conda', 'SSH_CONNECTION': '192.168.30.1 64414 192.168.30.133 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/python3.10/site-packages:/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description:/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces'}, 'shell': False}
+[12.174057] (-) TimerEvent: {}
+[12.284816] (-) TimerEvent: {}
+[12.394161] (-) TimerEvent: {}
+[12.501789] (-) TimerEvent: {}
+[12.565748] (autopatrol_interfaces) StdoutLine: {'line': b'[ 61%] Built target autopatrol_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[12.606786] (-) TimerEvent: {}
+[12.717883] (-) TimerEvent: {}
+[12.822723] (-) TimerEvent: {}
+[12.925062] (-) TimerEvent: {}
+[13.036913] (-) TimerEvent: {}
+[13.144192] (-) TimerEvent: {}
+[13.253759] (-) TimerEvent: {}
+[13.363866] (-) TimerEvent: {}
+[13.479051] (-) TimerEvent: {}
+[13.588706] (-) TimerEvent: {}
+[13.605854] (autopatrol_interfaces) StdoutLine: {'line': b'[ 70%] Built target autopatrol_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[13.691970] (-) TimerEvent: {}
+[13.799517] (-) TimerEvent: {}
+[13.906553] (-) TimerEvent: {}
+[14.009637] (-) TimerEvent: {}
+[14.118721] (-) TimerEvent: {}
+[14.225493] (-) TimerEvent: {}
+[14.335837] (-) TimerEvent: {}
+[14.440888] (-) TimerEvent: {}
+[14.545112] (-) TimerEvent: {}
+[14.658426] (-) TimerEvent: {}
+[14.764090] (-) TimerEvent: {}
+[14.872813] (-) TimerEvent: {}
+[14.982927] (-) TimerEvent: {}
+[15.089671] (-) TimerEvent: {}
+[15.196682] (-) TimerEvent: {}
+[15.301916] (-) TimerEvent: {}
+[15.407457] (-) TimerEvent: {}
+[15.515835] (-) TimerEvent: {}
+[15.624060] (-) TimerEvent: {}
+[15.734716] (-) TimerEvent: {}
+[15.842750] (-) TimerEvent: {}
+[15.954065] (-) TimerEvent: {}
+[16.058796] (-) TimerEvent: {}
+[16.163747] (-) TimerEvent: {}
+[16.271829] (-) TimerEvent: {}
+[16.385718] (-) TimerEvent: {}
+[16.490759] (-) TimerEvent: {}
+[16.593811] (-) TimerEvent: {}
+[16.704935] (-) TimerEvent: {}
+[16.815010] (-) TimerEvent: {}
+[16.923673] (-) TimerEvent: {}
+[17.035654] (-) TimerEvent: {}
+[17.148769] (-) TimerEvent: {}
+[17.258061] (-) TimerEvent: {}
+[17.360932] (-) TimerEvent: {}
+[17.466968] (-) TimerEvent: {}
+[17.572688] (-) TimerEvent: {}
+[17.667467] (autopartol_robot) StdoutLine: {'line': b'running egg_info\n'}
+[17.674019] (-) TimerEvent: {}
+[17.680433] (autopartol_robot) StdoutLine: {'line': b'writing ../../build/autopartol_robot/autopartol_robot.egg-info/PKG-INFO\n'}
+[17.680698] (autopartol_robot) StdoutLine: {'line': b'writing dependency_links to ../../build/autopartol_robot/autopartol_robot.egg-info/dependency_links.txt\n'}
+[17.681496] (autopartol_robot) StdoutLine: {'line': b'writing entry points to ../../build/autopartol_robot/autopartol_robot.egg-info/entry_points.txt\n'}
+[17.690529] (autopartol_robot) StdoutLine: {'line': b'writing requirements to ../../build/autopartol_robot/autopartol_robot.egg-info/requires.txt\n'}
+[17.696592] (autopartol_robot) StdoutLine: {'line': b'writing top-level names to ../../build/autopartol_robot/autopartol_robot.egg-info/top_level.txt\n'}
+[17.719455] (autopartol_robot) StdoutLine: {'line': b"reading manifest file '../../build/autopartol_robot/autopartol_robot.egg-info/SOURCES.txt'\n"}
+[17.742064] (autopartol_robot) StdoutLine: {'line': b"writing manifest file '../../build/autopartol_robot/autopartol_robot.egg-info/SOURCES.txt'\n"}
+[17.751808] (autopartol_robot) StdoutLine: {'line': b'running build\n'}
+[17.755799] (autopartol_robot) StdoutLine: {'line': b'running build_py\n'}
+[17.763084] (autopartol_robot) StdoutLine: {'line': b'copying autopartol_robot/speaker.py -> /home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/build/lib/autopartol_robot\n'}
+[17.763942] (autopartol_robot) StdoutLine: {'line': b'running install\n'}
+[17.766857] (autopartol_robot) StdoutLine: {'line': b'running install_lib\n'}
+[17.774491] (-) TimerEvent: {}
+[17.779756] (autopartol_robot) StdoutLine: {'line': b'copying /home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/build/lib/autopartol_robot/speaker.py -> /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot\n'}
+[17.804788] (autopartol_robot) StdoutLine: {'line': b'byte-compiling /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot/speaker.py to speaker.cpython-310.pyc\n'}
+[17.815965] (autopartol_robot) StdoutLine: {'line': b'running install_data\n'}
+[17.830507] (autopartol_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[17.867034] (autopartol_robot) StdoutLine: {'line': b"removing '/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[17.878849] (autopartol_robot) StdoutLine: {'line': b'Copying ../../build/autopartol_robot/autopartol_robot.egg-info to /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot-0.0.0-py3.10.egg-info\n'}
+[17.879683] (-) TimerEvent: {}
+[17.928839] (autopartol_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[17.983711] (-) TimerEvent: {}
+[18.093891] (-) TimerEvent: {}
+[18.197696] (-) TimerEvent: {}
+[18.238664] (autopartol_robot) StdoutLine: {'line': b'Installing partol_node script to /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/autopartol_robot\n'}
+[18.239879] (autopartol_robot) StdoutLine: {'line': b'Installing speaker script to /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/autopartol_robot\n'}
+[18.256608] (autopartol_robot) StdoutLine: {'line': b"writing list of installed files to '/home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/install.log'\n"}
+[18.299763] (-) TimerEvent: {}
+[18.408924] (-) TimerEvent: {}
+[18.479998] (autopartol_robot) CommandEnded: {'returncode': 0}
+[18.520724] (-) TimerEvent: {}
+[18.645697] (-) TimerEvent: {}
+[18.748555] (autopartol_robot) JobEnded: {'identifier': 'autopartol_robot', 'rc': 0}
+[18.762714] (-) TimerEvent: {}
+[18.763697] (dongbot_application) JobStarted: {'identifier': 'dongbot_application'}
+[18.864534] (-) TimerEvent: {}
+[18.972812] (-) TimerEvent: {}
+[19.076733] (-) TimerEvent: {}
+[19.182676] (-) TimerEvent: {}
+[19.287988] (-) TimerEvent: {}
+[19.392807] (-) TimerEvent: {}
+[19.499762] (-) TimerEvent: {}
+[19.605741] (-) TimerEvent: {}
+[19.642152] (autopatrol_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[19.650774] (autopatrol_interfaces) StdoutLine: {'line': b'writing autopatrol_interfaces.egg-info/PKG-INFO\n'}
+[19.651620] (autopatrol_interfaces) StdoutLine: {'line': b'writing dependency_links to autopatrol_interfaces.egg-info/dependency_links.txt\n'}
+[19.664180] (autopatrol_interfaces) StdoutLine: {'line': b'writing top-level names to autopatrol_interfaces.egg-info/top_level.txt\n'}
+[19.706442] (-) TimerEvent: {}
+[19.712086] (autopatrol_interfaces) StdoutLine: {'line': b"reading manifest file 'autopatrol_interfaces.egg-info/SOURCES.txt'\n"}
+[19.724589] (autopatrol_interfaces) StdoutLine: {'line': b"writing manifest file 'autopatrol_interfaces.egg-info/SOURCES.txt'\n"}
+[19.806839] (-) TimerEvent: {}
+[19.916702] (-) TimerEvent: {}
+[20.020992] (-) TimerEvent: {}
+[20.125130] (-) TimerEvent: {}
+[20.233772] (-) TimerEvent: {}
+[20.244057] (autopatrol_interfaces) StdoutLine: {'line': b'[ 70%] Built target ament_cmake_python_build_autopatrol_interfaces_egg\n'}
+[20.337706] (-) TimerEvent: {}
+[20.451744] (-) TimerEvent: {}
+[20.557782] (-) TimerEvent: {}
+[20.665830] (-) TimerEvent: {}
+[20.773718] (-) TimerEvent: {}
+[20.875892] (-) TimerEvent: {}
+[20.984910] (-) TimerEvent: {}
+[21.094720] (-) TimerEvent: {}
+[21.119681] (autopatrol_interfaces) StdoutLine: {'line': b'[ 70%] Built target autopatrol_interfaces\n'}
+[21.200748] (-) TimerEvent: {}
+[21.304078] (-) TimerEvent: {}
+[21.415864] (-) TimerEvent: {}
+[21.522828] (-) TimerEvent: {}
+[21.634715] (-) TimerEvent: {}
+[21.742829] (-) TimerEvent: {}
+[21.848773] (-) TimerEvent: {}
+[21.864622] (autopatrol_interfaces) StdoutLine: {'line': b'[ 74%] Built target autopatrol_interfaces__py\n'}
+[21.954729] (-) TimerEvent: {}
+[22.063753] (-) TimerEvent: {}
+[22.167712] (-) TimerEvent: {}
+[22.273692] (-) TimerEvent: {}
+[22.387709] (-) TimerEvent: {}
+[22.491659] (-) TimerEvent: {}
+[22.579845] (autopatrol_interfaces) StdoutLine: {'line': b'[ 80%] Built target autopatrol_interfaces__rosidl_generator_py\n'}
+[22.593655] (-) TimerEvent: {}
+[22.697660] (-) TimerEvent: {}
+[22.804783] (-) TimerEvent: {}
+[22.913170] (-) TimerEvent: {}
+[23.021698] (-) TimerEvent: {}
+[23.130775] (-) TimerEvent: {}
+[23.234831] (-) TimerEvent: {}
+[23.343800] (-) TimerEvent: {}
+[23.450910] (-) TimerEvent: {}
+[23.493880] (autopatrol_interfaces) StdoutLine: {'line': b'[ 87%] Built target autopatrol_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[23.556570] (-) TimerEvent: {}
+[23.664744] (-) TimerEvent: {}
+[23.769767] (-) TimerEvent: {}
+[23.884769] (-) TimerEvent: {}
+[23.987846] (-) TimerEvent: {}
+[24.096720] (-) TimerEvent: {}
+[24.202126] (-) TimerEvent: {}
+[24.313792] (-) TimerEvent: {}
+[24.423551] (-) TimerEvent: {}
+[24.489676] (autopatrol_interfaces) StdoutLine: {'line': b'[ 93%] Built target autopatrol_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[24.526841] (-) TimerEvent: {}
+[24.629778] (-) TimerEvent: {}
+[24.733143] (-) TimerEvent: {}
+[24.837073] (-) TimerEvent: {}
+[24.941809] (-) TimerEvent: {}
+[25.046739] (-) TimerEvent: {}
+[25.154656] (-) TimerEvent: {}
+[25.262667] (-) TimerEvent: {}
+[25.366660] (-) TimerEvent: {}
+[25.430756] (autopatrol_interfaces) StdoutLine: {'line': b'[100%] Built target autopatrol_interfaces__rosidl_typesupport_c__pyext\n'}
+[25.470856] (-) TimerEvent: {}
+[25.575073] (-) TimerEvent: {}
+[25.680695] (-) TimerEvent: {}
+[25.780663] (autopatrol_interfaces) CommandEnded: {'returncode': 0}
+[25.810774] (-) TimerEvent: {}
+[25.817538] (autopatrol_interfaces) JobProgress: {'identifier': 'autopatrol_interfaces', 'progress': 'install'}
+[25.915693] (-) TimerEvent: {}
+[26.030874] (-) TimerEvent: {}
+[26.136672] (-) TimerEvent: {}
+[26.216884] (autopatrol_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces'], 'cwd': '/home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'vim3'), ('SSH_CLIENT', '192.168.30.1 64414 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/vim3'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/vim3/myros/12-navigation/navigation_ws/src'), ('TERM_PROGRAM_VERSION', '1.111.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f16cc6ac-6e77-4dbc-8ff3-00100ca62f5f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/vim3/myros/12-navigation/navigation_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vim3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '27'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/vim3/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/vim3/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/bin/remote-cli:/home/vim3/.local/bin:/opt/ros/humble/bin:/home/vim3/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-927850e8b6c94c5f.txt'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/vim3/.vscode-server/data/User/workspaceStorage/c70190345c6b94d4ed795adde9396c8d/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-faa41afe24.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application:/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/vim3/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces'), ('CONDA_EXE', '/home/vim3/anaconda3/bin/conda'), ('SSH_CONNECTION', '192.168.30.1 64414 192.168.30.133 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/python3.10/site-packages:/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description:/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot:/opt/ros/humble')]), 'shell': False}
+[26.247875] (-) TimerEvent: {}
+[26.360884] (-) TimerEvent: {}
+[26.466649] (-) TimerEvent: {}
+[26.565174] (autopatrol_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.573026] (-) TimerEvent: {}
+[26.578551] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/ament_index/resource_index/rosidl_interfaces/autopatrol_interfaces\n'}
+[26.581157] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces\n'}
+[26.592620] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv\n'}
+[26.596537] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/speech_text.h\n'}
+[26.597620] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail\n'}
+[26.605195] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__functions.h\n'}
+[26.606098] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__struct.h\n'}
+[26.614578] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__type_support.h\n'}
+[26.615142] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__functions.c\n'}
+[26.622064] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg\n'}
+[26.623074] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[26.642028] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/library_path.sh\n'}
+[26.646889] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/library_path.dsv\n'}
+[26.652607] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_generator_c.so\n'}
+[26.663911] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces\n'}
+[26.664987] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv\n'}
+[26.669922] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail\n'}
+[26.670774] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__rosidl_typesupport_fastrtps_c.h\n'}
+[26.682046] (-) TimerEvent: {}
+[26.689617] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg\n'}
+[26.690591] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[26.709607] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[26.723826] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces\n'}
+[26.726822] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv\n'}
+[26.731721] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail\n'}
+[26.732711] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__type_support.c\n'}
+[26.735661] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__rosidl_typesupport_introspection_c.h\n'}
+[26.738970] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg\n'}
+[26.751971] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[26.752792] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[26.782709] (-) TimerEvent: {}
+[26.787905] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_c.so\n'}
+[26.802696] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces\n'}
+[26.803708] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv\n'}
+[26.808566] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/speech_text.hpp\n'}
+[26.821688] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail\n'}
+[26.822662] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__struct.hpp\n'}
+[26.829634] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__traits.hpp\n'}
+[26.830790] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__builder.hpp\n'}
+[26.837742] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__type_support.hpp\n'}
+[26.838072] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg\n'}
+[26.845624] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[26.846593] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces\n'}
+[26.856545] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv\n'}
+[26.857590] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail\n'}
+[26.858171] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/dds_fastrtps\n'}
+[26.865117] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[26.865870] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg\n'}
+[26.872846] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[26.885657] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[26.886609] (-) TimerEvent: {}
+[26.905433] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces\n'}
+[26.911421] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv\n'}
+[26.913666] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail\n'}
+[26.928625] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__rosidl_typesupport_introspection_cpp.hpp\n'}
+[26.929487] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__type_support.cpp\n'}
+[26.947638] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[26.972611] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_cpp.so\n'}
+[26.992643] (-) TimerEvent: {}
+[26.998626] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/pythonpath.sh\n'}
+[27.008654] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/pythonpath.dsv\n'}
+[27.009679] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces-0.0.0-py3.10.egg-info\n'}
+[27.014604] (autopatrol_interfaces) StdoutLine: {'line': b'-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[27.021601] (autopatrol_interfaces) StdoutLine: {'line': b'-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[27.030854] (autopatrol_interfaces) StdoutLine: {'line': b'-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[27.041494] (autopatrol_interfaces) StdoutLine: {'line': b'-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[27.049005] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces\n'}
+[27.061805] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/libautopatrol_interfaces__rosidl_generator_py.so\n'}
+[27.062747] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[27.075088] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[27.075994] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[27.082968] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/srv\n'}
+[27.083370] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/srv/_speech_text.py\n'}
+[27.083768] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/srv/__init__.py\n'}
+[27.088673] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/srv/_speech_text_s.c\n'}
+[27.092702] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[27.099628] (-) TimerEvent: {}
+[27.100450] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[27.105632] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[27.106440] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/__init__.py\n'}
+[27.202529] (-) TimerEvent: {}
+[27.313707] (-) TimerEvent: {}
+[27.420709] (-) TimerEvent: {}
+[27.526710] (-) TimerEvent: {}
+[27.632707] (-) TimerEvent: {}
+[27.738819] (-) TimerEvent: {}
+[27.807102] (autopatrol_interfaces) StdoutLine: {'line': b"Listing '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces'...\n"}
+[27.814474] (autopatrol_interfaces) StdoutLine: {'line': b"Listing '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/srv'...\n"}
+[27.845529] (-) TimerEvent: {}
+[27.883116] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[27.922571] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[27.947657] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[27.951920] (-) TimerEvent: {}
+[27.992477] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_generator_py.so\n'}
+[28.020545] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/srv/SpeechText.idl\n'}
+[28.036748] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/srv/SpeechText.srv\n'}
+[28.040051] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/srv/SpeechText_Request.msg\n'}
+[28.049688] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/srv/SpeechText_Response.msg\n'}
+[28.053199] (-) TimerEvent: {}
+[28.062909] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/ament_index/resource_index/package_run_dependencies/autopatrol_interfaces\n'}
+[28.063910] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/ament_index/resource_index/parent_prefix_path/autopatrol_interfaces\n'}
+[28.071092] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/ament_prefix_path.sh\n'}
+[28.078790] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/ament_prefix_path.dsv\n'}
+[28.084689] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/path.sh\n'}
+[28.089909] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/path.dsv\n'}
+[28.090813] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/local_setup.bash\n'}
+[28.099862] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/local_setup.sh\n'}
+[28.100639] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/local_setup.zsh\n'}
+[28.101180] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/local_setup.dsv\n'}
+[28.105654] (autopatrol_interfaces) StdoutLine: {'line': b'-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.dsv\n'}
+[28.106192] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/ament_index/resource_index/packages/autopatrol_interfaces\n'}
+[28.114089] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_generator_cExport.cmake\n'}
+[28.120059] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[28.131905] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[28.136972] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[28.145161] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[28.145921] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[28.154487] (-) TimerEvent: {}
+[28.159158] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[28.163857] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[28.164826] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_generator_cppExport.cmake\n'}
+[28.172851] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[28.176781] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[28.177552] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[28.178094] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[28.187941] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[28.193595] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[28.199732] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_generator_pyExport.cmake\n'}
+[28.200672] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[28.201202] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[28.212528] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[28.213069] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[28.217953] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[28.218670] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[28.219184] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[28.223952] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[28.229027] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfacesConfig.cmake\n'}
+[28.229836] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfacesConfig-version.cmake\n'}
+[28.234748] (autopatrol_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.xml\n'}
+[28.260683] (-) TimerEvent: {}
+[28.287595] (autopatrol_interfaces) CommandEnded: {'returncode': 0}
+[28.363563] (-) TimerEvent: {}
+[28.476617] (-) TimerEvent: {}
+[28.576554] (autopatrol_interfaces) JobEnded: {'identifier': 'autopatrol_interfaces', 'rc': 0}
+[28.588553] (-) TimerEvent: {}
+[28.589886] (dongbot_description) JobStarted: {'identifier': 'dongbot_description'}
+[28.693673] (-) TimerEvent: {}
+[28.774983] (dongbot_description) JobProgress: {'identifier': 'dongbot_description', 'progress': 'cmake'}
+[28.793847] (dongbot_description) JobProgress: {'identifier': 'dongbot_description', 'progress': 'build'}
+[28.794180] (-) TimerEvent: {}
+[28.794921] (dongbot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_description', '--', '-j2', '-l2'], 'cwd': '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_description', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'vim3'), ('SSH_CLIENT', '192.168.30.1 64414 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/vim3'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/vim3/myros/12-navigation/navigation_ws/src'), ('TERM_PROGRAM_VERSION', '1.111.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f16cc6ac-6e77-4dbc-8ff3-00100ca62f5f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/vim3/myros/12-navigation/navigation_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vim3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '27'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/vim3/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/vim3/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/bin/remote-cli:/home/vim3/.local/bin:/opt/ros/humble/bin:/home/vim3/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-927850e8b6c94c5f.txt'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/vim3/.vscode-server/data/User/workspaceStorage/c70190345c6b94d4ed795adde9396c8d/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-faa41afe24.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application:/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/vim3/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_description'), ('CONDA_EXE', '/home/vim3/anaconda3/bin/conda'), ('SSH_CONNECTION', '192.168.30.1 64414 192.168.30.133 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/python3.10/site-packages:/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description:/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot:/opt/ros/humble')]), 'shell': False}
+[28.908726] (-) TimerEvent: {}
+[29.015050] (-) TimerEvent: {}
+[29.123673] (-) TimerEvent: {}
+[29.227714] (-) TimerEvent: {}
+[29.338679] (-) TimerEvent: {}
+[29.449535] (-) TimerEvent: {}
+[29.558129] (-) TimerEvent: {}
+[29.666652] (-) TimerEvent: {}
+[29.768719] (-) TimerEvent: {}
+[29.874432] (-) TimerEvent: {}
+[29.987669] (-) TimerEvent: {}
+[30.093182] (-) TimerEvent: {}
+[30.103623] (dongbot_description) CommandEnded: {'returncode': 0}
+[30.114517] (dongbot_description) JobProgress: {'identifier': 'dongbot_description', 'progress': 'install'}
+[30.126051] (dongbot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_description'], 'cwd': '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_description', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'vim3'), ('SSH_CLIENT', '192.168.30.1 64414 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/vim3'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/vim3/myros/12-navigation/navigation_ws/src'), ('TERM_PROGRAM_VERSION', '1.111.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f16cc6ac-6e77-4dbc-8ff3-00100ca62f5f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/vim3/myros/12-navigation/navigation_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vim3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '27'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/vim3/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/vim3/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/bin/remote-cli:/home/vim3/.local/bin:/opt/ros/humble/bin:/home/vim3/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-927850e8b6c94c5f.txt'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/vim3/.vscode-server/data/User/workspaceStorage/c70190345c6b94d4ed795adde9396c8d/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-faa41afe24.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application:/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/vim3/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_description'), ('CONDA_EXE', '/home/vim3/anaconda3/bin/conda'), ('SSH_CONNECTION', '192.168.30.1 64414 192.168.30.133 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/python3.10/site-packages:/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description:/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot:/opt/ros/humble')]), 'shell': False}
+[30.199817] (-) TimerEvent: {}
+[30.307480] (-) TimerEvent: {}
+[30.390504] (dongbot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.397758] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/launch\n'}
+[30.406558] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/launch/display_robot.launch.py\n'}
+[30.407146] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/launch/gazebo_sim.launch.py\n'}
+[30.407954] (-) TimerEvent: {}
+[30.415570] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/launch/__pycache__\n'}
+[30.423664] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/launch/__pycache__/display_robot.launch.cpython-310.pyc\n'}
+[30.424471] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf\n'}
+[30.425083] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/first_robot.gv\n'}
+[30.438593] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/first_robot.xacro\n'}
+[30.439514] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot.urdf\n'}
+[30.441789] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/first_robot.urdf\n'}
+[30.442023] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/first_robot_try.urdf\n'}
+[30.445061] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/first_robot.pdf\n'}
+[30.457927] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot\n'}
+[30.458816] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/base.urdf.xacro\n'}
+[30.463815] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/common_intertia.xacro\n'}
+[30.464983] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/dongbot.urdf.xacro\n'}
+[30.470912] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/dongbot.ros2_control.xacro\n'}
+[30.471685] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/actuator\n'}
+[30.480632] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/actuator/caster.urdf.xacro\n'}
+[30.481491] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/actuator/wheel.urdf.xacro\n'}
+[30.482033] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/sensor\n'}
+[30.489920] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/sensor/camera.urdf.xacro\n'}
+[30.490858] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/sensor/laser.urdf.xacro\n'}
+[30.495967] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/sensor/imu.urdf.xacro\n'}
+[30.496863] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/plugins\n'}
+[30.499904] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/plugins/gazebo_sensor_plugin.xacro\n'}
+[30.500679] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/urdf/dongbot/plugins/gazebo_control_plugin.xacro\n'}
+[30.501186] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/config\n'}
+[30.506731] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/config/dongbot_config.rviz\n'}
+[30.511015] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/config/dongbot_ros2_controller.yaml\n'}
+[30.511782] (-) TimerEvent: {}
+[30.516540] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/world\n'}
+[30.517127] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/world/room\n'}
+[30.524734] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/world/room/model.config\n'}
+[30.528043] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/world/room/model.sdf\n'}
+[30.528975] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/world/nav_room.world\n'}
+[30.535135] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/ament_index/resource_index/package_run_dependencies/dongbot_description\n'}
+[30.543000] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/ament_index/resource_index/parent_prefix_path/dongbot_description\n'}
+[30.543836] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/environment/ament_prefix_path.sh\n'}
+[30.550702] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/environment/ament_prefix_path.dsv\n'}
+[30.556617] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/environment/path.sh\n'}
+[30.562701] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/environment/path.dsv\n'}
+[30.568957] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/local_setup.bash\n'}
+[30.569206] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/local_setup.sh\n'}
+[30.574657] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/local_setup.zsh\n'}
+[30.583511] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/local_setup.dsv\n'}
+[30.584168] (dongbot_description) StdoutLine: {'line': b'-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/package.dsv\n'}
+[30.589475] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/ament_index/resource_index/packages/dongbot_description\n'}
+[30.590061] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/cmake/dongbot_descriptionConfig.cmake\n'}
+[30.596077] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/cmake/dongbot_descriptionConfig-version.cmake\n'}
+[30.603697] (dongbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/package.xml\n'}
+[30.625671] (dongbot_description) CommandEnded: {'returncode': 0}
+[30.631489] (-) TimerEvent: {}
+[30.745012] (-) TimerEvent: {}
+[30.856652] (-) TimerEvent: {}
+[30.962794] (dongbot_description) JobEnded: {'identifier': 'dongbot_description', 'rc': 0}
+[30.980713] (-) TimerEvent: {}
+[30.985703] (dongbot_nav) JobStarted: {'identifier': 'dongbot_nav'}
+[31.081484] (-) TimerEvent: {}
+[31.188872] (-) TimerEvent: {}
+[31.267472] (dongbot_nav) JobProgress: {'identifier': 'dongbot_nav', 'progress': 'cmake'}
+[31.277806] (dongbot_nav) JobProgress: {'identifier': 'dongbot_nav', 'progress': 'build'}
+[31.290161] (dongbot_nav) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_nav', '--', '-j2', '-l2'], 'cwd': '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_nav', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'vim3'), ('SSH_CLIENT', '192.168.30.1 64414 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/vim3'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/vim3/myros/12-navigation/navigation_ws/src'), ('TERM_PROGRAM_VERSION', '1.111.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f16cc6ac-6e77-4dbc-8ff3-00100ca62f5f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/vim3/myros/12-navigation/navigation_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vim3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '27'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/vim3/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/vim3/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/bin/remote-cli:/home/vim3/.local/bin:/opt/ros/humble/bin:/home/vim3/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-927850e8b6c94c5f.txt'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/vim3/.vscode-server/data/User/workspaceStorage/c70190345c6b94d4ed795adde9396c8d/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-faa41afe24.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application:/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/vim3/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_nav'), ('CONDA_EXE', '/home/vim3/anaconda3/bin/conda'), ('SSH_CONNECTION', '192.168.30.1 64414 192.168.30.133 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/python3.10/site-packages:/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description:/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot:/opt/ros/humble')]), 'shell': False}
+[31.331062] (-) TimerEvent: {}
+[31.439768] (-) TimerEvent: {}
+[31.544194] (-) TimerEvent: {}
+[31.653721] (-) TimerEvent: {}
+[31.760975] (-) TimerEvent: {}
+[31.868782] (-) TimerEvent: {}
+[31.974618] (-) TimerEvent: {}
+[32.082568] (-) TimerEvent: {}
+[32.186593] (-) TimerEvent: {}
+[32.296114] (-) TimerEvent: {}
+[32.402718] (-) TimerEvent: {}
+[32.508178] (-) TimerEvent: {}
+[32.616132] (-) TimerEvent: {}
+[32.686760] (dongbot_nav) CommandEnded: {'returncode': 0}
+[32.698612] (dongbot_nav) JobProgress: {'identifier': 'dongbot_nav', 'progress': 'install'}
+[32.698905] (dongbot_nav) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_nav'], 'cwd': '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_nav', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'vim3'), ('SSH_CLIENT', '192.168.30.1 64414 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/vim3'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/vim3/myros/12-navigation/navigation_ws/src'), ('TERM_PROGRAM_VERSION', '1.111.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f16cc6ac-6e77-4dbc-8ff3-00100ca62f5f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/vim3/myros/12-navigation/navigation_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vim3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '27'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/vim3/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/vim3/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/bin/remote-cli:/home/vim3/.local/bin:/opt/ros/humble/bin:/home/vim3/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-927850e8b6c94c5f.txt'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/vim3/.vscode-server/data/User/workspaceStorage/c70190345c6b94d4ed795adde9396c8d/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-faa41afe24.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application:/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/vim3/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_nav'), ('CONDA_EXE', '/home/vim3/anaconda3/bin/conda'), ('SSH_CONNECTION', '192.168.30.1 64414 192.168.30.133 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/python3.10/site-packages:/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description:/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot:/opt/ros/humble')]), 'shell': False}
+[32.729721] (-) TimerEvent: {}
+[32.839771] (-) TimerEvent: {}
+[32.954811] (dongbot_application) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/dongbot_application', 'build', '--build-base', '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_application/build', 'install', '--record', '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_application/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vim3/myros/12-navigation/navigation_ws/src/dongbot_application', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:zh', 'USER': 'vim3', 'SSH_CLIENT': '192.168.30.1 64414 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/vim3', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/vim3/myros/12-navigation/navigation_ws/src', 'TERM_PROGRAM_VERSION': '1.111.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-f16cc6ac-6e77-4dbc-8ff3-00100ca62f5f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'COLCON_PREFIX_PATH': '/home/vim3/myros/12-navigation/navigation_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vim3', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '27', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/vim3/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/vim3/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/bin/remote-cli:/home/vim3/.local/bin:/opt/ros/humble/bin:/home/vim3/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-927850e8b6c94c5f.txt', 'LANG': 'zh_CN.UTF-8', 'PYTHONSTARTUP': '/home/vim3/.vscode-server/data/User/workspaceStorage/c70190345c6b94d4ed795adde9396c8d/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-faa41afe24.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application:/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/vim3/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_application', 'CONDA_EXE': '/home/vim3/anaconda3/bin/conda', 'SSH_CONNECTION': '192.168.30.1 64414 192.168.30.133 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/python3.10/site-packages:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/python3.10/site-packages:/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description:/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces'}, 'shell': False}
+[32.989722] (-) TimerEvent: {}
+[33.032987] (dongbot_nav) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[33.038632] (dongbot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/launch\n'}
+[33.040052] (dongbot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/launch/navigation2.launch.py\n'}
+[33.046047] (dongbot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/config\n'}
+[33.046794] (dongbot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/config/nav2_params.yaml\n'}
+[33.053813] (dongbot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/maps\n'}
+[33.063515] (dongbot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/maps/room.yaml\n'}
+[33.064187] (dongbot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/maps/room.pgm\n'}
+[33.075455] (dongbot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/ament_index/resource_index/package_run_dependencies/dongbot_nav\n'}
+[33.076024] (dongbot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/ament_index/resource_index/parent_prefix_path/dongbot_nav\n'}
+[33.081128] (dongbot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/environment/ament_prefix_path.sh\n'}
+[33.081882] (dongbot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/environment/ament_prefix_path.dsv\n'}
+[33.088741] (dongbot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/environment/path.sh\n'}
+[33.089600] (dongbot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/environment/path.dsv\n'}
+[33.090082] (-) TimerEvent: {}
+[33.106595] (dongbot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/local_setup.bash\n'}
+[33.108589] (dongbot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/local_setup.sh\n'}
+[33.117968] (dongbot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/local_setup.zsh\n'}
+[33.118803] (dongbot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/local_setup.dsv\n'}
+[33.124502] (dongbot_nav) StdoutLine: {'line': b'-- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/package.dsv\n'}
+[33.126018] (dongbot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/ament_index/resource_index/packages/dongbot_nav\n'}
+[33.132009] (dongbot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/cmake/dongbot_navConfig.cmake\n'}
+[33.139588] (dongbot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/cmake/dongbot_navConfig-version.cmake\n'}
+[33.140588] (dongbot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/package.xml\n'}
+[33.179877] (dongbot_nav) CommandEnded: {'returncode': 0}
+[33.200665] (-) TimerEvent: {}
+[33.306090] (-) TimerEvent: {}
+[33.424660] (-) TimerEvent: {}
+[33.444042] (dongbot_nav) JobEnded: {'identifier': 'dongbot_nav', 'rc': 0}
+[33.526905] (-) TimerEvent: {}
+[33.631157] (-) TimerEvent: {}
+[33.736708] (-) TimerEvent: {}
+[33.845037] (-) TimerEvent: {}
+[33.951039] (-) TimerEvent: {}
+[34.054744] (-) TimerEvent: {}
+[34.161754] (-) TimerEvent: {}
+[34.266719] (-) TimerEvent: {}
+[34.370091] (-) TimerEvent: {}
+[34.475551] (-) TimerEvent: {}
+[34.580121] (-) TimerEvent: {}
+[34.682690] (-) TimerEvent: {}
+[34.784951] (-) TimerEvent: {}
+[34.889634] (-) TimerEvent: {}
+[34.994568] (-) TimerEvent: {}
+[35.096652] (-) TimerEvent: {}
+[35.199612] (-) TimerEvent: {}
+[35.300587] (-) TimerEvent: {}
+[35.402844] (-) TimerEvent: {}
+[35.507387] (-) TimerEvent: {}
+[35.611862] (-) TimerEvent: {}
+[35.717616] (-) TimerEvent: {}
+[35.721068] (dongbot_application) StdoutLine: {'line': b'running egg_info\n'}
+[35.721640] (dongbot_application) StdoutLine: {'line': b'writing ../../build/dongbot_application/dongbot_application.egg-info/PKG-INFO\n'}
+[35.732023] (dongbot_application) StdoutLine: {'line': b'writing dependency_links to ../../build/dongbot_application/dongbot_application.egg-info/dependency_links.txt\n'}
+[35.736132] (dongbot_application) StdoutLine: {'line': b'writing entry points to ../../build/dongbot_application/dongbot_application.egg-info/entry_points.txt\n'}
+[35.738792] (dongbot_application) StdoutLine: {'line': b'writing requirements to ../../build/dongbot_application/dongbot_application.egg-info/requires.txt\n'}
+[35.740120] (dongbot_application) StdoutLine: {'line': b'writing top-level names to ../../build/dongbot_application/dongbot_application.egg-info/top_level.txt\n'}
+[35.761884] (dongbot_application) StdoutLine: {'line': b"reading manifest file '../../build/dongbot_application/dongbot_application.egg-info/SOURCES.txt'\n"}
+[35.773119] (dongbot_application) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[35.781431] (dongbot_application) StdoutLine: {'line': b"writing manifest file '../../build/dongbot_application/dongbot_application.egg-info/SOURCES.txt'\n"}
+[35.784414] (dongbot_application) StdoutLine: {'line': b'running build\n'}
+[35.785035] (dongbot_application) StdoutLine: {'line': b'running build_py\n'}
+[35.791143] (dongbot_application) StdoutLine: {'line': b'running install\n'}
+[35.796590] (dongbot_application) StdoutLine: {'line': b'running install_lib\n'}
+[35.812497] (dongbot_application) StdoutLine: {'line': b'running install_data\n'}
+[35.818466] (-) TimerEvent: {}
+[35.821451] (dongbot_application) StdoutLine: {'line': b'running install_egg_info\n'}
+[35.836730] (dongbot_application) StdoutLine: {'line': b"removing '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/python3.10/site-packages/dongbot_application-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[35.841610] (dongbot_application) StdoutLine: {'line': b'Copying ../../build/dongbot_application/dongbot_application.egg-info to /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/python3.10/site-packages/dongbot_application-0.0.0-py3.10.egg-info\n'}
+[35.854522] (dongbot_application) StdoutLine: {'line': b'running install_scripts\n'}
+[35.920640] (-) TimerEvent: {}
+[36.023561] (-) TimerEvent: {}
+[36.030094] (dongbot_application) StdoutLine: {'line': b'Installing get_robot_pose script to /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/dongbot_application\n'}
+[36.031455] (dongbot_application) StdoutLine: {'line': b'Installing init_robot_pose script to /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/dongbot_application\n'}
+[36.031889] (dongbot_application) StdoutLine: {'line': b'Installing nav_to_pose script to /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/dongbot_application\n'}
+[36.037191] (dongbot_application) StdoutLine: {'line': b'Installing waypoint_flollower script to /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/dongbot_application\n'}
+[36.038791] (dongbot_application) StdoutLine: {'line': b"writing list of installed files to '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_application/install.log'\n"}
+[36.126000] (-) TimerEvent: {}
+[36.130177] (dongbot_application) CommandEnded: {'returncode': 0}
+[36.174070] (dongbot_application) JobEnded: {'identifier': 'dongbot_application', 'rc': 0}
+[36.185722] (-) EventReactorShutdown: {}

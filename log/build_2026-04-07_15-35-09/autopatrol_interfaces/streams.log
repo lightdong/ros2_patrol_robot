@@ -1,0 +1,151 @@
+[3.365s] Invoking command in '/home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces -- -j2 -l2
+[5.461s] [  3%] Built target autopatrol_interfaces__cpp
+[6.039s] [ 12%] Built target autopatrol_interfaces__rosidl_generator_c
+[6.859s] [ 12%] Built target ament_cmake_python_copy_autopatrol_interfaces
+[7.333s] [ 22%] Built target autopatrol_interfaces__rosidl_typesupport_cpp
+[8.021s] [ 32%] Built target autopatrol_interfaces__rosidl_typesupport_fastrtps_c
+[8.563s] [ 41%] Built target autopatrol_interfaces__rosidl_typesupport_introspection_c
+[9.053s] [ 51%] Built target autopatrol_interfaces__rosidl_typesupport_c
+[9.849s] [ 61%] Built target autopatrol_interfaces__rosidl_typesupport_fastrtps_cpp
+[10.285s] [ 70%] Built target autopatrol_interfaces__rosidl_typesupport_introspection_cpp
+[16.001s] running egg_info
+[16.025s] writing autopatrol_interfaces.egg-info/PKG-INFO
+[16.027s] writing dependency_links to autopatrol_interfaces.egg-info/dependency_links.txt
+[16.027s] writing top-level names to autopatrol_interfaces.egg-info/top_level.txt
+[16.115s] reading manifest file 'autopatrol_interfaces.egg-info/SOURCES.txt'
+[16.131s] writing manifest file 'autopatrol_interfaces.egg-info/SOURCES.txt'
+[16.809s] [ 70%] Built target ament_cmake_python_build_autopatrol_interfaces_egg
+[17.329s] [ 70%] Built target autopatrol_interfaces
+[17.827s] [ 74%] Built target autopatrol_interfaces__py
+[18.615s] [ 80%] Built target autopatrol_interfaces__rosidl_generator_py
+[19.152s] [ 87%] Built target autopatrol_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[19.649s] [ 93%] Built target autopatrol_interfaces__rosidl_typesupport_introspection_c__pyext
+[20.104s] [100%] Built target autopatrol_interfaces__rosidl_typesupport_c__pyext
+[22.291s] Invoked command in '/home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces -- -j2 -l2
+[22.472s] Invoking command in '/home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces
+[22.656s] -- Install configuration: ""
+[22.657s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/ament_index/resource_index/rosidl_interfaces/autopatrol_interfaces
+[22.657s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces
+[22.657s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv
+[22.657s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/speech_text.h
+[22.670s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail
+[22.671s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__functions.h
+[22.671s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__struct.h
+[22.671s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__type_support.h
+[22.672s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__functions.c
+[22.672s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg
+[22.679s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg/rosidl_generator_c__visibility_control.h
+[22.680s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/library_path.sh
+[22.680s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/library_path.dsv
+[22.717s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_generator_c.so
+[22.732s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces
+[22.757s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv
+[22.781s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail
+[22.781s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__rosidl_typesupport_fastrtps_c.h
+[22.781s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg
+[22.781s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[22.794s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_fastrtps_c.so
+[22.794s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces
+[22.795s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv
+[22.795s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail
+[22.795s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__type_support.c
+[22.795s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__rosidl_typesupport_introspection_c.h
+[22.795s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg
+[22.826s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[22.832s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_introspection_c.so
+[22.833s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_c.so
+[22.833s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces
+[22.851s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv
+[22.851s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/speech_text.hpp
+[22.867s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail
+[22.867s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__struct.hpp
+[22.874s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__traits.hpp
+[22.874s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__builder.hpp
+[22.874s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__type_support.hpp
+[22.884s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg
+[22.884s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[22.884s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces
+[22.884s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv
+[22.884s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail
+[22.884s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/dds_fastrtps
+[22.884s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__rosidl_typesupport_fastrtps_cpp.hpp
+[22.884s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg
+[22.884s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[22.924s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[22.927s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces
+[22.936s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv
+[22.945s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail
+[22.945s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__rosidl_typesupport_introspection_cpp.hpp
+[22.945s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__type_support.cpp
+[22.958s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_introspection_cpp.so
+[22.974s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_cpp.so
+[22.974s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/pythonpath.sh
+[22.974s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/pythonpath.dsv
+[22.983s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces-0.0.0-py3.10.egg-info
+[22.983s] -- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[22.991s] -- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[23.005s] -- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[23.017s] -- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[23.029s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces
+[23.030s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/libautopatrol_interfaces__rosidl_generator_py.so
+[23.030s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[23.030s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_c.c
+[23.030s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[23.036s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/srv
+[23.041s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/srv/_speech_text.py
+[23.042s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/srv/__init__.py
+[23.042s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/srv/_speech_text_s.c
+[23.042s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[23.066s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[23.066s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[23.066s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/__init__.py
+[23.889s] Listing '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces'...
+[23.889s] Listing '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/srv'...
+[23.952s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[23.964s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[23.979s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[23.993s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_generator_py.so
+[23.993s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/srv/SpeechText.idl
+[23.994s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/srv/SpeechText.srv
+[23.994s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/srv/SpeechText_Request.msg
+[23.994s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/srv/SpeechText_Response.msg
+[23.994s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/ament_index/resource_index/package_run_dependencies/autopatrol_interfaces
+[23.999s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/ament_index/resource_index/parent_prefix_path/autopatrol_interfaces
+[24.003s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/ament_prefix_path.sh
+[24.005s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/ament_prefix_path.dsv
+[24.013s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/path.sh
+[24.013s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/path.dsv
+[24.013s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/local_setup.bash
+[24.013s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/local_setup.sh
+[24.013s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/local_setup.zsh
+[24.018s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/local_setup.dsv
+[24.018s] -- Installing: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.dsv
+[24.027s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/ament_index/resource_index/packages/autopatrol_interfaces
+[24.056s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_generator_cExport.cmake
+[24.057s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_generator_cExport-noconfig.cmake
+[24.074s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[24.074s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[24.087s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[24.087s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[24.099s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_cExport.cmake
+[24.100s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[24.113s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_generator_cppExport.cmake
+[24.120s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[24.120s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[24.129s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[24.136s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[24.147s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_cppExport.cmake
+[24.147s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[24.167s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_generator_pyExport.cmake
+[24.174s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[24.174s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/rosidl_cmake-extras.cmake
+[24.174s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.174s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[24.174s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[24.174s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[24.174s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.178s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[24.185s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfacesConfig.cmake
+[24.192s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfacesConfig-version.cmake
+[24.194s] -- Up-to-date: /home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.xml
+[24.229s] Invoked command in '/home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces

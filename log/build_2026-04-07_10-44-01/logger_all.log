@@ -1,0 +1,372 @@
+[3.134s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.135s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x77e0af317af0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77e0af3171c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77e0af3171c0>>)
+[6.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[6.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.336s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vim3/myros/12-navigation/navigation_ws'
+[6.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[6.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[6.338s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[6.338s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[6.339s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[6.339s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[6.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[6.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[6.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[6.504s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[6.505s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[6.505s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[6.506s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[6.506s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[6.507s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[6.508s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[6.509s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[6.510s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[6.511s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[6.511s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[6.512s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[6.513s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[6.514s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[6.514s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[6.515s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[6.515s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[6.516s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[6.516s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[6.517s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[6.517s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[6.517s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[6.518s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[6.518s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[6.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[6.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[6.520s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[6.520s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[6.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extensions ['ignore', 'ignore_ament_install']
+[6.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extension 'ignore'
+[6.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extension 'ignore_ament_install'
+[6.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extensions ['colcon_pkg']
+[6.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extension 'colcon_pkg'
+[6.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extensions ['colcon_meta']
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extension 'colcon_meta'
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extensions ['ros']
+[6.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extension 'ros'
+[6.552s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autopartol_robot' with type 'ros.ament_python' and name 'autopartol_robot'
+[6.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[6.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_interfaces) by extension 'ignore'
+[6.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_interfaces) by extension 'ignore_ament_install'
+[6.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_interfaces) by extensions ['colcon_pkg']
+[6.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_interfaces) by extension 'colcon_pkg'
+[6.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_interfaces) by extensions ['colcon_meta']
+[6.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_interfaces) by extension 'colcon_meta'
+[6.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_interfaces) by extensions ['ros']
+[6.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_interfaces) by extension 'ros'
+[6.565s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autopatrol_interfaces' with type 'ros.ament_cmake' and name 'autopatrol_interfaces'
+[6.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/dongbot_application) by extensions ['ignore', 'ignore_ament_install']
+[6.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/dongbot_application) by extension 'ignore'
+[6.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/dongbot_application) by extension 'ignore_ament_install'
+[6.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/dongbot_application) by extensions ['colcon_pkg']
+[6.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/dongbot_application) by extension 'colcon_pkg'
+[6.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/dongbot_application) by extensions ['colcon_meta']
+[6.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/dongbot_application) by extension 'colcon_meta'
+[6.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/dongbot_application) by extensions ['ros']
+[6.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/dongbot_application) by extension 'ros'
+[6.573s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dongbot_application' with type 'ros.ament_python' and name 'dongbot_application'
+[6.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/dongbot_description) by extensions ['ignore', 'ignore_ament_install']
+[6.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/dongbot_description) by extension 'ignore'
+[6.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/dongbot_description) by extension 'ignore_ament_install'
+[6.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/dongbot_description) by extensions ['colcon_pkg']
+[6.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/dongbot_description) by extension 'colcon_pkg'
+[6.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/dongbot_description) by extensions ['colcon_meta']
+[6.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/dongbot_description) by extension 'colcon_meta'
+[6.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/dongbot_description) by extensions ['ros']
+[6.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/dongbot_description) by extension 'ros'
+[6.581s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dongbot_description' with type 'ros.ament_cmake' and name 'dongbot_description'
+[6.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/dongbot_nav) by extensions ['ignore', 'ignore_ament_install']
+[6.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/dongbot_nav) by extension 'ignore'
+[6.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/dongbot_nav) by extension 'ignore_ament_install'
+[6.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/dongbot_nav) by extensions ['colcon_pkg']
+[6.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/dongbot_nav) by extension 'colcon_pkg'
+[6.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/dongbot_nav) by extensions ['colcon_meta']
+[6.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/dongbot_nav) by extension 'colcon_meta'
+[6.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/dongbot_nav) by extensions ['ros']
+[6.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/dongbot_nav) by extension 'ros'
+[6.589s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dongbot_nav' with type 'ros.ament_cmake' and name 'dongbot_nav'
+[6.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[6.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[6.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[6.590s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[6.590s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.895s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[6.896s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[6.970s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 371 installed packages in /opt/ros/humble
+[6.983s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[8.480s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_args' from command line to 'None'
+[8.480s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_target' from command line to 'None'
+[8.480s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.481s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[8.481s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_clean_first' from command line to 'False'
+[8.481s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_force_configure' from command line to 'False'
+[8.482s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'ament_cmake_args' from command line to 'None'
+[8.482s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[8.482s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.483s] DEBUG:colcon.colcon_core.verb:Building package 'autopartol_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot', 'merge_install': False, 'path': '/home/vim3/myros/12-navigation/navigation_ws/src/autopartol_robot', 'symlink_install': False, 'test_result_base': None}
+[8.485s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_interfaces' build argument 'cmake_args' from command line to 'None'
+[8.485s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_interfaces' build argument 'cmake_target' from command line to 'None'
+[8.485s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.485s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[8.486s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[8.486s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[8.486s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[8.486s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[8.487s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.487s] DEBUG:colcon.colcon_core.verb:Building package 'autopatrol_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces', 'merge_install': False, 'path': '/home/vim3/myros/12-navigation/navigation_ws/src/autopatrol_interfaces', 'symlink_install': False, 'test_result_base': None}
+[8.489s] Level 5:colcon.colcon_core.verb:set package 'dongbot_application' build argument 'cmake_args' from command line to 'None'
+[8.489s] Level 5:colcon.colcon_core.verb:set package 'dongbot_application' build argument 'cmake_target' from command line to 'None'
+[8.489s] Level 5:colcon.colcon_core.verb:set package 'dongbot_application' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.489s] Level 5:colcon.colcon_core.verb:set package 'dongbot_application' build argument 'cmake_clean_cache' from command line to 'False'
+[8.490s] Level 5:colcon.colcon_core.verb:set package 'dongbot_application' build argument 'cmake_clean_first' from command line to 'False'
+[8.490s] Level 5:colcon.colcon_core.verb:set package 'dongbot_application' build argument 'cmake_force_configure' from command line to 'False'
+[8.491s] Level 5:colcon.colcon_core.verb:set package 'dongbot_application' build argument 'ament_cmake_args' from command line to 'None'
+[8.491s] Level 5:colcon.colcon_core.verb:set package 'dongbot_application' build argument 'catkin_cmake_args' from command line to 'None'
+[8.491s] Level 5:colcon.colcon_core.verb:set package 'dongbot_application' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.491s] DEBUG:colcon.colcon_core.verb:Building package 'dongbot_application' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_application', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application', 'merge_install': False, 'path': '/home/vim3/myros/12-navigation/navigation_ws/src/dongbot_application', 'symlink_install': False, 'test_result_base': None}
+[8.492s] Level 5:colcon.colcon_core.verb:set package 'dongbot_description' build argument 'cmake_args' from command line to 'None'
+[8.493s] Level 5:colcon.colcon_core.verb:set package 'dongbot_description' build argument 'cmake_target' from command line to 'None'
+[8.494s] Level 5:colcon.colcon_core.verb:set package 'dongbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.494s] Level 5:colcon.colcon_core.verb:set package 'dongbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[8.495s] Level 5:colcon.colcon_core.verb:set package 'dongbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[8.495s] Level 5:colcon.colcon_core.verb:set package 'dongbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[8.495s] Level 5:colcon.colcon_core.verb:set package 'dongbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[8.495s] Level 5:colcon.colcon_core.verb:set package 'dongbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[8.496s] Level 5:colcon.colcon_core.verb:set package 'dongbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.496s] DEBUG:colcon.colcon_core.verb:Building package 'dongbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description', 'merge_install': False, 'path': '/home/vim3/myros/12-navigation/navigation_ws/src/dongbot_description', 'symlink_install': False, 'test_result_base': None}
+[8.498s] Level 5:colcon.colcon_core.verb:set package 'dongbot_nav' build argument 'cmake_args' from command line to 'None'
+[8.499s] Level 5:colcon.colcon_core.verb:set package 'dongbot_nav' build argument 'cmake_target' from command line to 'None'
+[8.499s] Level 5:colcon.colcon_core.verb:set package 'dongbot_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.499s] Level 5:colcon.colcon_core.verb:set package 'dongbot_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[8.499s] Level 5:colcon.colcon_core.verb:set package 'dongbot_nav' build argument 'cmake_clean_first' from command line to 'False'
+[8.500s] Level 5:colcon.colcon_core.verb:set package 'dongbot_nav' build argument 'cmake_force_configure' from command line to 'False'
+[8.500s] Level 5:colcon.colcon_core.verb:set package 'dongbot_nav' build argument 'ament_cmake_args' from command line to 'None'
+[8.500s] Level 5:colcon.colcon_core.verb:set package 'dongbot_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[8.500s] Level 5:colcon.colcon_core.verb:set package 'dongbot_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.501s] DEBUG:colcon.colcon_core.verb:Building package 'dongbot_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav', 'merge_install': False, 'path': '/home/vim3/myros/12-navigation/navigation_ws/src/dongbot_nav', 'symlink_install': False, 'test_result_base': None}
+[8.501s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[8.508s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[8.510s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vim3/myros/12-navigation/navigation_ws/src/autopartol_robot' with build type 'ament_python'
+[8.511s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopartol_robot', 'ament_prefix_path')
+[8.567s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[8.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/share/autopartol_robot/hook/ament_prefix_path.ps1'
+[8.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/share/autopartol_robot/hook/ament_prefix_path.dsv'
+[8.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/share/autopartol_robot/hook/ament_prefix_path.sh'
+[8.629s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.629s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.728s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vim3/myros/12-navigation/navigation_ws/src/autopatrol_interfaces' with build type 'ament_cmake'
+[8.733s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vim3/myros/12-navigation/navigation_ws/src/autopatrol_interfaces'
+[8.740s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.751s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.192s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vim3/myros/12-navigation/navigation_ws/src/autopartol_robot'
+[11.194s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.194s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces -- -j2 -l2
+[17.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vim3/myros/12-navigation/navigation_ws/src/autopartol_robot': PYTHONPATH=/home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopartol_robot build --build-base /home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/build install --record /home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/install.log --single-version-externally-managed install_data
+[22.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vim3/myros/12-navigation/navigation_ws/src/autopartol_robot' returned '0': PYTHONPATH=/home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopartol_robot build --build-base /home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/build install --record /home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/install.log --single-version-externally-managed install_data
+[22.133s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot' for CMake module files
+[22.145s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot' for CMake config files
+[22.174s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib'
+[22.176s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/bin'
+[22.182s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/pkgconfig/autopartol_robot.pc'
+[22.186s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages'
+[22.186s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopartol_robot', 'pythonpath')
+[22.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/share/autopartol_robot/hook/pythonpath.ps1'
+[22.202s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/share/autopartol_robot/hook/pythonpath.dsv'
+[22.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/share/autopartol_robot/hook/pythonpath.sh'
+[22.232s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/bin'
+[22.235s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autopartol_robot)
+[22.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/share/autopartol_robot/package.ps1'
+[22.253s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/share/autopartol_robot/package.dsv'
+[22.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/share/autopartol_robot/package.sh'
+[22.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/share/autopartol_robot/package.bash'
+[22.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/share/autopartol_robot/package.zsh'
+[22.327s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/share/colcon-core/packages/autopartol_robot)
+[22.339s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vim3/myros/12-navigation/navigation_ws/src/dongbot_application' with build type 'ament_python'
+[22.355s] Level 1:colcon.colcon_core.shell:create_environment_hook('dongbot_application', 'ament_prefix_path')
+[22.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/share/dongbot_application/hook/ament_prefix_path.ps1'
+[22.372s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/share/dongbot_application/hook/ament_prefix_path.dsv'
+[22.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/share/dongbot_application/hook/ament_prefix_path.sh'
+[22.379s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[22.384s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[27.639s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vim3/myros/12-navigation/navigation_ws/src/dongbot_application'
+[27.639s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[27.639s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[28.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces -- -j2 -l2
+[28.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces
+[30.430s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autopatrol_interfaces)
+[30.434s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces' for CMake module files
+[30.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces
+[30.463s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces' for CMake config files
+[30.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopatrol_interfaces', 'cmake_prefix_path')
+[30.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/cmake_prefix_path.ps1'
+[30.522s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/cmake_prefix_path.dsv'
+[30.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/cmake_prefix_path.sh'
+[30.535s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib'
+[30.538s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopatrol_interfaces', 'ld_library_path_lib')
+[30.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/ld_library_path_lib.ps1'
+[30.561s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/ld_library_path_lib.dsv'
+[30.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/ld_library_path_lib.sh'
+[30.575s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/bin'
+[30.576s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib/pkgconfig/autopatrol_interfaces.pc'
+[30.577s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib/python3.10/site-packages'
+[30.578s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/bin'
+[30.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.ps1'
+[30.586s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.dsv'
+[30.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.sh'
+[30.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.bash'
+[30.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.zsh'
+[30.601s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/colcon-core/packages/autopatrol_interfaces)
+[30.606s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autopatrol_interfaces)
+[30.606s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces' for CMake module files
+[30.611s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces' for CMake config files
+[30.622s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopatrol_interfaces', 'cmake_prefix_path')
+[30.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/cmake_prefix_path.ps1'
+[30.630s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/cmake_prefix_path.dsv'
+[30.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/cmake_prefix_path.sh'
+[30.637s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib'
+[30.638s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopatrol_interfaces', 'ld_library_path_lib')
+[30.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/ld_library_path_lib.ps1'
+[30.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/ld_library_path_lib.dsv'
+[30.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/ld_library_path_lib.sh'
+[30.659s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/bin'
+[30.659s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib/pkgconfig/autopatrol_interfaces.pc'
+[30.663s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/lib/python3.10/site-packages'
+[30.667s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/bin'
+[30.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.ps1'
+[30.675s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.dsv'
+[30.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.sh'
+[30.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.bash'
+[30.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.zsh'
+[30.695s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces/share/colcon-core/packages/autopatrol_interfaces)
+[30.699s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vim3/myros/12-navigation/navigation_ws/src/dongbot_description' with build type 'ament_cmake'
+[30.701s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vim3/myros/12-navigation/navigation_ws/src/dongbot_description'
+[30.706s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[30.706s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[30.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vim3/myros/12-navigation/navigation_ws/build/dongbot_description -- -j2 -l2
+[31.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vim3/myros/12-navigation/navigation_ws/build/dongbot_description -- -j2 -l2
+[31.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vim3/myros/12-navigation/navigation_ws/build/dongbot_description
+[31.985s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dongbot_description)
+[31.986s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description' for CMake module files
+[31.990s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vim3/myros/12-navigation/navigation_ws/build/dongbot_description
+[32.000s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description' for CMake config files
+[32.007s] Level 1:colcon.colcon_core.shell:create_environment_hook('dongbot_description', 'cmake_prefix_path')
+[32.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/hook/cmake_prefix_path.ps1'
+[32.020s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/hook/cmake_prefix_path.dsv'
+[32.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/hook/cmake_prefix_path.sh'
+[32.033s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/bin'
+[32.034s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/lib/pkgconfig/dongbot_description.pc'
+[32.035s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/lib/python3.10/site-packages'
+[32.037s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/bin'
+[32.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/package.ps1'
+[32.047s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/package.dsv'
+[32.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/package.sh'
+[32.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/package.bash'
+[32.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/package.zsh'
+[32.073s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/colcon-core/packages/dongbot_description)
+[32.082s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dongbot_description)
+[32.083s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description' for CMake module files
+[32.086s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description' for CMake config files
+[32.090s] Level 1:colcon.colcon_core.shell:create_environment_hook('dongbot_description', 'cmake_prefix_path')
+[32.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/hook/cmake_prefix_path.ps1'
+[32.102s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/hook/cmake_prefix_path.dsv'
+[32.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/hook/cmake_prefix_path.sh'
+[32.115s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/bin'
+[32.115s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/lib/pkgconfig/dongbot_description.pc'
+[32.116s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/lib/python3.10/site-packages'
+[32.120s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/bin'
+[32.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/package.ps1'
+[32.129s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/package.dsv'
+[32.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/package.sh'
+[32.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/package.bash'
+[32.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/dongbot_description/package.zsh'
+[32.152s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_description/share/colcon-core/packages/dongbot_description)
+[32.159s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vim3/myros/12-navigation/navigation_ws/src/dongbot_nav' with build type 'ament_cmake'
+[32.160s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vim3/myros/12-navigation/navigation_ws/src/dongbot_nav'
+[32.163s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[32.175s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[32.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_nav': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vim3/myros/12-navigation/navigation_ws/build/dongbot_nav -- -j2 -l2
+[32.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vim3/myros/12-navigation/navigation_ws/src/dongbot_application': PYTHONPATH=/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dongbot_application build --build-base /home/vim3/myros/12-navigation/navigation_ws/build/dongbot_application/build install --record /home/vim3/myros/12-navigation/navigation_ws/build/dongbot_application/install.log --single-version-externally-managed install_data
+[33.124s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vim3/myros/12-navigation/navigation_ws/build/dongbot_nav -- -j2 -l2
+[33.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_nav': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vim3/myros/12-navigation/navigation_ws/build/dongbot_nav
+[33.359s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dongbot_nav)
+[33.360s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav' for CMake module files
+[33.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vim3/myros/12-navigation/navigation_ws/build/dongbot_nav
+[33.369s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav' for CMake config files
+[33.373s] Level 1:colcon.colcon_core.shell:create_environment_hook('dongbot_nav', 'cmake_prefix_path')
+[33.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/hook/cmake_prefix_path.ps1'
+[33.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/hook/cmake_prefix_path.dsv'
+[33.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/hook/cmake_prefix_path.sh'
+[33.384s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/bin'
+[33.384s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/lib/pkgconfig/dongbot_nav.pc'
+[33.385s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/lib/python3.10/site-packages'
+[33.386s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/bin'
+[33.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/package.ps1'
+[33.391s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/package.dsv'
+[33.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/package.sh'
+[33.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/package.bash'
+[33.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/package.zsh'
+[33.406s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/colcon-core/packages/dongbot_nav)
+[33.408s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dongbot_nav)
+[33.408s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav' for CMake module files
+[33.411s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav' for CMake config files
+[33.416s] Level 1:colcon.colcon_core.shell:create_environment_hook('dongbot_nav', 'cmake_prefix_path')
+[33.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/hook/cmake_prefix_path.ps1'
+[33.420s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/hook/cmake_prefix_path.dsv'
+[33.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/hook/cmake_prefix_path.sh'
+[33.428s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/bin'
+[33.428s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/lib/pkgconfig/dongbot_nav.pc'
+[33.429s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/lib/python3.10/site-packages'
+[33.431s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/bin'
+[33.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/package.ps1'
+[33.436s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/package.dsv'
+[33.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/package.sh'
+[33.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/package.bash'
+[33.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/dongbot_nav/package.zsh'
+[33.456s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_nav/share/colcon-core/packages/dongbot_nav)
+[35.121s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application' for CMake module files
+[35.124s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vim3/myros/12-navigation/navigation_ws/src/dongbot_application' returned '0': PYTHONPATH=/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dongbot_application build --build-base /home/vim3/myros/12-navigation/navigation_ws/build/dongbot_application/build install --record /home/vim3/myros/12-navigation/navigation_ws/build/dongbot_application/install.log --single-version-externally-managed install_data
+[35.125s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application' for CMake config files
+[35.130s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib'
+[35.130s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/bin'
+[35.131s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/pkgconfig/dongbot_application.pc'
+[35.132s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/python3.10/site-packages'
+[35.132s] Level 1:colcon.colcon_core.shell:create_environment_hook('dongbot_application', 'pythonpath')
+[35.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/share/dongbot_application/hook/pythonpath.ps1'
+[35.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/share/dongbot_application/hook/pythonpath.dsv'
+[35.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/share/dongbot_application/hook/pythonpath.sh'
+[35.139s] Level 1:colcon.colcon_core.environment:checking '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/bin'
+[35.140s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dongbot_application)
+[35.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/share/dongbot_application/package.ps1'
+[35.142s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/share/dongbot_application/package.dsv'
+[35.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/share/dongbot_application/package.sh'
+[35.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/share/dongbot_application/package.bash'
+[35.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/share/dongbot_application/package.zsh'
+[35.151s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/share/colcon-core/packages/dongbot_application)
+[35.153s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[35.156s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[35.156s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[35.156s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[35.222s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[35.222s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[35.223s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[35.684s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[35.685s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vim3/myros/12-navigation/navigation_ws/install/local_setup.ps1'
+[35.693s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vim3/myros/12-navigation/navigation_ws/install/_local_setup_util_ps1.py'
+[35.701s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vim3/myros/12-navigation/navigation_ws/install/setup.ps1'
+[35.708s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vim3/myros/12-navigation/navigation_ws/install/local_setup.sh'
+[35.714s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vim3/myros/12-navigation/navigation_ws/install/_local_setup_util_sh.py'
+[35.719s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vim3/myros/12-navigation/navigation_ws/install/setup.sh'
+[35.725s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vim3/myros/12-navigation/navigation_ws/install/local_setup.bash'
+[35.728s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vim3/myros/12-navigation/navigation_ws/install/setup.bash'
+[35.733s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vim3/myros/12-navigation/navigation_ws/install/local_setup.zsh'
+[35.736s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vim3/myros/12-navigation/navigation_ws/install/setup.zsh'

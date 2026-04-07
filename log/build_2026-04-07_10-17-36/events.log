@@ -1,0 +1,425 @@
+[0.000000] (-) TimerEvent: {}
+[0.011147] (autopartol_robot) JobQueued: {'identifier': 'autopartol_robot', 'dependencies': OrderedDict()}
+[0.011545] (autopatrol_interfaces) JobQueued: {'identifier': 'autopatrol_interfaces', 'dependencies': OrderedDict()}
+[0.011726] (dongbot_application) JobQueued: {'identifier': 'dongbot_application', 'dependencies': OrderedDict()}
+[0.011857] (dongbot_description) JobQueued: {'identifier': 'dongbot_description', 'dependencies': OrderedDict()}
+[0.011972] (dongbot_nav) JobQueued: {'identifier': 'dongbot_nav', 'dependencies': OrderedDict()}
+[0.012092] (autopartol_robot) JobStarted: {'identifier': 'autopartol_robot'}
+[0.100601] (-) TimerEvent: {}
+[0.195114] (autopatrol_interfaces) JobStarted: {'identifier': 'autopatrol_interfaces'}
+[0.203796] (-) TimerEvent: {}
+[0.310760] (-) TimerEvent: {}
+[0.426722] (-) TimerEvent: {}
+[0.528700] (-) TimerEvent: {}
+[0.631836] (-) TimerEvent: {}
+[0.733082] (-) TimerEvent: {}
+[0.837809] (-) TimerEvent: {}
+[0.941452] (-) TimerEvent: {}
+[1.050023] (-) TimerEvent: {}
+[1.157974] (-) TimerEvent: {}
+[1.261462] (-) TimerEvent: {}
+[1.371696] (-) TimerEvent: {}
+[1.478618] (-) TimerEvent: {}
+[1.582718] (-) TimerEvent: {}
+[1.698747] (-) TimerEvent: {}
+[1.899431] (-) TimerEvent: {}
+[2.002750] (-) TimerEvent: {}
+[2.108022] (-) TimerEvent: {}
+[2.212937] (-) TimerEvent: {}
+[2.315810] (-) TimerEvent: {}
+[2.424540] (-) TimerEvent: {}
+[2.525843] (-) TimerEvent: {}
+[2.641616] (-) TimerEvent: {}
+[2.755672] (-) TimerEvent: {}
+[2.859612] (-) TimerEvent: {}
+[2.971409] (-) TimerEvent: {}
+[3.074851] (-) TimerEvent: {}
+[3.181284] (-) TimerEvent: {}
+[3.375690] (-) TimerEvent: {}
+[3.535448] (-) TimerEvent: {}
+[3.669537] (-) TimerEvent: {}
+[3.788963] (-) TimerEvent: {}
+[3.895420] (-) TimerEvent: {}
+[3.997608] (-) TimerEvent: {}
+[4.098499] (-) TimerEvent: {}
+[4.203709] (-) TimerEvent: {}
+[4.336471] (-) TimerEvent: {}
+[4.472436] (-) TimerEvent: {}
+[4.574868] (-) TimerEvent: {}
+[4.719857] (-) TimerEvent: {}
+[4.829521] (-) TimerEvent: {}
+[4.939647] (-) TimerEvent: {}
+[5.076955] (-) TimerEvent: {}
+[5.236881] (-) TimerEvent: {}
+[5.345669] (-) TimerEvent: {}
+[5.475613] (-) TimerEvent: {}
+[5.583101] (-) TimerEvent: {}
+[5.727687] (-) TimerEvent: {}
+[5.829821] (-) TimerEvent: {}
+[5.939008] (-) TimerEvent: {}
+[6.047705] (-) TimerEvent: {}
+[6.156965] (-) TimerEvent: {}
+[6.260738] (-) TimerEvent: {}
+[6.448015] (-) TimerEvent: {}
+[6.554623] (-) TimerEvent: {}
+[6.667456] (-) TimerEvent: {}
+[6.768534] (-) TimerEvent: {}
+[6.878703] (-) TimerEvent: {}
+[6.996343] (-) TimerEvent: {}
+[7.093603] (autopatrol_interfaces) JobProgress: {'identifier': 'autopatrol_interfaces', 'progress': 'cmake'}
+[7.093885] (-) TimerEvent: {}
+[7.132173] (autopatrol_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/vim3/myros/12-navigation/navigation_ws/src/autopatrol_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/vim3/myros/12-navigation/navigation_ws/install/autopatrol_interfaces'], 'cwd': '/home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'vim3'), ('SSH_CLIENT', '192.168.30.1 64414 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/vim3'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/vim3/myros/12-navigation/navigation_ws/src'), ('TERM_PROGRAM_VERSION', '1.111.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f16cc6ac-6e77-4dbc-8ff3-00100ca62f5f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vim3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '27'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/vim3/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/vim3/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/bin/remote-cli:/home/vim3/.local/bin:/opt/ros/humble/bin:/home/vim3/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-927850e8b6c94c5f.txt'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/vim3/.vscode-server/data/User/workspaceStorage/c70190345c6b94d4ed795adde9396c8d/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-faa41afe24.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/vim3/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces'), ('CONDA_EXE', '/home/vim3/anaconda3/bin/conda'), ('SSH_CONNECTION', '192.168.30.1 64414 192.168.30.133 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[7.206809] (-) TimerEvent: {}
+[7.416761] (-) TimerEvent: {}
+[7.541634] (-) TimerEvent: {}
+[7.732243] (-) TimerEvent: {}
+[7.845967] (-) TimerEvent: {}
+[7.967721] (-) TimerEvent: {}
+[8.072664] (-) TimerEvent: {}
+[8.190952] (-) TimerEvent: {}
+[8.353381] (-) TimerEvent: {}
+[8.473698] (-) TimerEvent: {}
+[8.593917] (-) TimerEvent: {}
+[8.708474] (-) TimerEvent: {}
+[8.816650] (-) TimerEvent: {}
+[8.921681] (-) TimerEvent: {}
+[9.024695] (-) TimerEvent: {}
+[9.139810] (-) TimerEvent: {}
+[9.254969] (-) TimerEvent: {}
+[9.367475] (-) TimerEvent: {}
+[9.471719] (-) TimerEvent: {}
+[9.578723] (-) TimerEvent: {}
+[9.683003] (-) TimerEvent: {}
+[9.791588] (-) TimerEvent: {}
+[9.896719] (-) TimerEvent: {}
+[9.998721] (-) TimerEvent: {}
+[10.111781] (-) TimerEvent: {}
+[10.217665] (-) TimerEvent: {}
+[10.327804] (-) TimerEvent: {}
+[10.429674] (-) TimerEvent: {}
+[10.533859] (-) TimerEvent: {}
+[10.641680] (-) TimerEvent: {}
+[10.753536] (-) TimerEvent: {}
+[10.860817] (-) TimerEvent: {}
+[10.971403] (-) TimerEvent: {}
+[11.077691] (-) TimerEvent: {}
+[11.185711] (-) TimerEvent: {}
+[11.293722] (-) TimerEvent: {}
+[11.324414] (autopatrol_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[11.395836] (-) TimerEvent: {}
+[11.497019] (-) TimerEvent: {}
+[11.604459] (-) TimerEvent: {}
+[11.715614] (-) TimerEvent: {}
+[11.818706] (-) TimerEvent: {}
+[11.929529] (-) TimerEvent: {}
+[12.035810] (-) TimerEvent: {}
+[12.145551] (-) TimerEvent: {}
+[12.251493] (-) TimerEvent: {}
+[12.359754] (-) TimerEvent: {}
+[12.467621] (-) TimerEvent: {}
+[12.570728] (-) TimerEvent: {}
+[12.688422] (-) TimerEvent: {}
+[12.791446] (-) TimerEvent: {}
+[12.900745] (-) TimerEvent: {}
+[13.005669] (-) TimerEvent: {}
+[13.117771] (-) TimerEvent: {}
+[13.222672] (-) TimerEvent: {}
+[13.329562] (-) TimerEvent: {}
+[13.433119] (-) TimerEvent: {}
+[13.546114] (-) TimerEvent: {}
+[13.650558] (-) TimerEvent: {}
+[13.758604] (-) TimerEvent: {}
+[13.862673] (-) TimerEvent: {}
+[13.975486] (-) TimerEvent: {}
+[14.091509] (-) TimerEvent: {}
+[14.197843] (-) TimerEvent: {}
+[14.313422] (-) TimerEvent: {}
+[14.422943] (-) TimerEvent: {}
+[14.531677] (-) TimerEvent: {}
+[14.638497] (-) TimerEvent: {}
+[14.746835] (-) TimerEvent: {}
+[14.854176] (-) TimerEvent: {}
+[14.959644] (-) TimerEvent: {}
+[15.068132] (-) TimerEvent: {}
+[15.178461] (-) TimerEvent: {}
+[15.300484] (-) TimerEvent: {}
+[15.408704] (-) TimerEvent: {}
+[15.524041] (-) TimerEvent: {}
+[15.640533] (-) TimerEvent: {}
+[15.748696] (-) TimerEvent: {}
+[15.859691] (-) TimerEvent: {}
+[15.965688] (-) TimerEvent: {}
+[16.071049] (-) TimerEvent: {}
+[16.180415] (-) TimerEvent: {}
+[16.285045] (-) TimerEvent: {}
+[16.392932] (-) TimerEvent: {}
+[16.506023] (autopartol_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/autopartol_robot', 'build', '--build-base', '/home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/build', 'install', '--record', '/home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vim3/myros/12-navigation/navigation_ws/src/autopartol_robot', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:zh', 'USER': 'vim3', 'SSH_CLIENT': '192.168.30.1 64414 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/vim3', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/vim3/myros/12-navigation/navigation_ws/src', 'TERM_PROGRAM_VERSION': '1.111.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-f16cc6ac-6e77-4dbc-8ff3-00100ca62f5f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vim3', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '27', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/vim3/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/vim3/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/bin/remote-cli:/home/vim3/.local/bin:/opt/ros/humble/bin:/home/vim3/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-927850e8b6c94c5f.txt', 'LANG': 'zh_CN.UTF-8', 'PYTHONSTARTUP': '/home/vim3/.vscode-server/data/User/workspaceStorage/c70190345c6b94d4ed795adde9396c8d/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-faa41afe24.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/vim3/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot', 'CONDA_EXE': '/home/vim3/anaconda3/bin/conda', 'SSH_CONNECTION': '192.168.30.1 64414 192.168.30.133 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[16.526046] (-) TimerEvent: {}
+[16.594049] (autopatrol_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[16.626814] (-) TimerEvent: {}
+[16.736966] (-) TimerEvent: {}
+[16.841797] (-) TimerEvent: {}
+[16.852545] (autopatrol_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[16.944134] (-) TimerEvent: {}
+[17.056010] (-) TimerEvent: {}
+[17.159802] (-) TimerEvent: {}
+[17.262774] (-) TimerEvent: {}
+[17.368658] (-) TimerEvent: {}
+[17.471861] (-) TimerEvent: {}
+[17.576786] (-) TimerEvent: {}
+[17.682882] (-) TimerEvent: {}
+[17.787642] (-) TimerEvent: {}
+[17.891731] (-) TimerEvent: {}
+[18.001562] (-) TimerEvent: {}
+[18.112098] (-) TimerEvent: {}
+[18.216623] (-) TimerEvent: {}
+[18.323173] (-) TimerEvent: {}
+[18.428656] (-) TimerEvent: {}
+[18.536659] (-) TimerEvent: {}
+[18.639687] (-) TimerEvent: {}
+[18.746039] (-) TimerEvent: {}
+[18.860906] (-) TimerEvent: {}
+[18.968717] (-) TimerEvent: {}
+[19.039652] (autopatrol_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[19.071704] (-) TimerEvent: {}
+[19.115757] (autopatrol_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[19.124044] (autopatrol_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[19.144002] (autopatrol_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[19.179732] (-) TimerEvent: {}
+[19.236939] (autopatrol_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[19.283788] (-) TimerEvent: {}
+[19.391811] (-) TimerEvent: {}
+[19.498834] (-) TimerEvent: {}
+[19.605936] (-) TimerEvent: {}
+[19.714496] (-) TimerEvent: {}
+[19.820178] (-) TimerEvent: {}
+[19.925600] (-) TimerEvent: {}
+[20.027390] (-) TimerEvent: {}
+[20.136906] (-) TimerEvent: {}
+[20.244571] (-) TimerEvent: {}
+[20.349781] (-) TimerEvent: {}
+[20.460810] (-) TimerEvent: {}
+[20.573682] (-) TimerEvent: {}
+[20.680035] (-) TimerEvent: {}
+[20.793563] (-) TimerEvent: {}
+[20.900910] (-) TimerEvent: {}
+[21.015069] (-) TimerEvent: {}
+[21.122614] (-) TimerEvent: {}
+[21.212554] (autopartol_robot) StdoutLine: {'line': b'running egg_info\n'}
+[21.223948] (autopartol_robot) StdoutLine: {'line': b'writing ../../build/autopartol_robot/autopartol_robot.egg-info/PKG-INFO\n'}
+[21.224827] (-) TimerEvent: {}
+[21.241512] (autopartol_robot) StdoutLine: {'line': b'writing dependency_links to ../../build/autopartol_robot/autopartol_robot.egg-info/dependency_links.txt\n'}
+[21.267735] (autopartol_robot) StdoutLine: {'line': b'writing entry points to ../../build/autopartol_robot/autopartol_robot.egg-info/entry_points.txt\n'}
+[21.277070] (autopartol_robot) StdoutLine: {'line': b'writing requirements to ../../build/autopartol_robot/autopartol_robot.egg-info/requires.txt\n'}
+[21.283064] (autopartol_robot) StdoutLine: {'line': b'writing top-level names to ../../build/autopartol_robot/autopartol_robot.egg-info/top_level.txt\n'}
+[21.314595] (autopartol_robot) StdoutLine: {'line': b"reading manifest file '../../build/autopartol_robot/autopartol_robot.egg-info/SOURCES.txt'\n"}
+[21.325542] (autopartol_robot) StdoutLine: {'line': b"writing manifest file '../../build/autopartol_robot/autopartol_robot.egg-info/SOURCES.txt'\n"}
+[21.330836] (-) TimerEvent: {}
+[21.336079] (autopartol_robot) StdoutLine: {'line': b'running build\n'}
+[21.341396] (autopartol_robot) StdoutLine: {'line': b'running build_py\n'}
+[21.344026] (autopartol_robot) StdoutLine: {'line': b'running install\n'}
+[21.344778] (autopartol_robot) StdoutLine: {'line': b'running install_lib\n'}
+[21.353619] (autopartol_robot) StdoutLine: {'line': b'running install_data\n'}
+[21.354641] (autopartol_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[21.367306] (autopartol_robot) StdoutLine: {'line': b"removing '/home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[21.384576] (autopartol_robot) StdoutLine: {'line': b'Copying ../../build/autopartol_robot/autopartol_robot.egg-info to /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot-0.0.0-py3.10.egg-info\n'}
+[21.431567] (-) TimerEvent: {}
+[21.436749] (autopartol_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[21.533677] (-) TimerEvent: {}
+[21.636616] (-) TimerEvent: {}
+[21.698594] (autopartol_robot) StdoutLine: {'line': b'Installing partol_node script to /home/vim3/myros/12-navigation/navigation_ws/install/autopartol_robot/lib/autopartol_robot\n'}
+[21.703628] (autopartol_robot) StdoutLine: {'line': b"writing list of installed files to '/home/vim3/myros/12-navigation/navigation_ws/build/autopartol_robot/install.log'\n"}
+[21.731575] (autopatrol_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[21.737741] (-) TimerEvent: {}
+[21.798092] (autopatrol_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[21.815899] (autopartol_robot) CommandEnded: {'returncode': 0}
+[21.817724] (autopatrol_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[21.826367] (autopatrol_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[21.838478] (-) TimerEvent: {}
+[21.959641] (-) TimerEvent: {}
+[21.968717] (autopatrol_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[22.063645] (-) TimerEvent: {}
+[22.144509] (autopartol_robot) JobEnded: {'identifier': 'autopartol_robot', 'rc': 0}
+[22.192657] (-) TimerEvent: {}
+[22.195681] (dongbot_application) JobStarted: {'identifier': 'dongbot_application'}
+[22.307017] (-) TimerEvent: {}
+[22.410689] (-) TimerEvent: {}
+[22.520528] (-) TimerEvent: {}
+[22.629052] (-) TimerEvent: {}
+[22.739593] (-) TimerEvent: {}
+[22.846968] (-) TimerEvent: {}
+[22.958759] (-) TimerEvent: {}
+[23.065926] (-) TimerEvent: {}
+[23.168685] (-) TimerEvent: {}
+[23.275824] (-) TimerEvent: {}
+[23.380801] (-) TimerEvent: {}
+[23.491619] (-) TimerEvent: {}
+[23.595600] (-) TimerEvent: {}
+[23.705713] (-) TimerEvent: {}
+[23.810655] (-) TimerEvent: {}
+[23.913477] (-) TimerEvent: {}
+[24.016980] (-) TimerEvent: {}
+[24.121776] (-) TimerEvent: {}
+[24.227904] (-) TimerEvent: {}
+[24.332695] (-) TimerEvent: {}
+[24.440875] (-) TimerEvent: {}
+[24.542650] (-) TimerEvent: {}
+[24.613733] (autopatrol_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[24.647692] (-) TimerEvent: {}
+[24.756842] (-) TimerEvent: {}
+[24.867652] (-) TimerEvent: {}
+[24.973426] (-) TimerEvent: {}
+[25.077717] (-) TimerEvent: {}
+[25.181102] (-) TimerEvent: {}
+[25.288745] (-) TimerEvent: {}
+[25.399594] (-) TimerEvent: {}
+[25.511447] (-) TimerEvent: {}
+[25.620074] (-) TimerEvent: {}
+[25.726796] (-) TimerEvent: {}
+[25.833597] (-) TimerEvent: {}
+[25.943914] (-) TimerEvent: {}
+[26.048551] (-) TimerEvent: {}
+[26.155428] (-) TimerEvent: {}
+[26.282646] (-) TimerEvent: {}
+[26.397009] (-) TimerEvent: {}
+[26.499870] (-) TimerEvent: {}
+[26.611982] (-) TimerEvent: {}
+[26.642041] (autopatrol_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[26.717676] (-) TimerEvent: {}
+[26.768105] (autopatrol_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[26.821738] (-) TimerEvent: {}
+[26.924172] (-) TimerEvent: {}
+[27.045586] (-) TimerEvent: {}
+[27.096133] (autopatrol_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[27.152871] (-) TimerEvent: {}
+[27.265753] (-) TimerEvent: {}
+[27.377737] (-) TimerEvent: {}
+[27.481099] (-) TimerEvent: {}
+[27.587824] (-) TimerEvent: {}
+[27.696685] (-) TimerEvent: {}
+[27.801808] (-) TimerEvent: {}
+[27.915918] (-) TimerEvent: {}
+[28.018652] (-) TimerEvent: {}
+[28.125809] (-) TimerEvent: {}
+[28.231672] (-) TimerEvent: {}
+[28.335151] (-) TimerEvent: {}
+[28.417746] (autopatrol_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[28.435954] (-) TimerEvent: {}
+[28.546698] (-) TimerEvent: {}
+[28.650870] (-) TimerEvent: {}
+[28.758064] (-) TimerEvent: {}
+[28.861539] (-) TimerEvent: {}
+[28.966681] (-) TimerEvent: {}
+[29.071638] (-) TimerEvent: {}
+[29.180691] (-) TimerEvent: {}
+[29.286133] (-) TimerEvent: {}
+[29.391845] (-) TimerEvent: {}
+[29.497811] (-) TimerEvent: {}
+[29.606520] (-) TimerEvent: {}
+[29.712028] (-) TimerEvent: {}
+[29.820709] (-) TimerEvent: {}
+[29.926595] (-) TimerEvent: {}
+[30.032085] (-) TimerEvent: {}
+[30.137627] (-) TimerEvent: {}
+[30.241723] (-) TimerEvent: {}
+[30.347161] (-) TimerEvent: {}
+[30.453141] (-) TimerEvent: {}
+[30.560644] (-) TimerEvent: {}
+[30.663656] (-) TimerEvent: {}
+[30.767102] (-) TimerEvent: {}
+[30.871514] (-) TimerEvent: {}
+[30.978415] (-) TimerEvent: {}
+[31.083413] (-) TimerEvent: {}
+[31.185559] (-) TimerEvent: {}
+[31.291829] (-) TimerEvent: {}
+[31.396756] (-) TimerEvent: {}
+[31.492976] (dongbot_application) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/dongbot_application', 'build', '--build-base', '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_application/build', 'install', '--record', '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_application/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vim3/myros/12-navigation/navigation_ws/src/dongbot_application', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:zh', 'USER': 'vim3', 'SSH_CLIENT': '192.168.30.1 64414 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/vim3', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/vim3/myros/12-navigation/navigation_ws/src', 'TERM_PROGRAM_VERSION': '1.111.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-f16cc6ac-6e77-4dbc-8ff3-00100ca62f5f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vim3', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '27', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/vim3/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/vim3/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/vim3/.vscode-server/cli/servers/Stable-ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/server/bin/remote-cli:/home/vim3/.local/bin:/opt/ros/humble/bin:/home/vim3/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/vim3/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-927850e8b6c94c5f.txt', 'LANG': 'zh_CN.UTF-8', 'PYTHONSTARTUP': '/home/vim3/.vscode-server/data/User/workspaceStorage/c70190345c6b94d4ed795adde9396c8d/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-faa41afe24.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/vim3/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_application', 'CONDA_EXE': '/home/vim3/anaconda3/bin/conda', 'SSH_CONNECTION': '192.168.30.1 64414 192.168.30.133 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[31.545653] (-) TimerEvent: {}
+[31.548154] (autopatrol_interfaces) StderrLine: {'line': b"Error parsing '/home/vim3/myros/12-navigation/navigation_ws/src/autopatrol_interfaces/package.xml':\n"}
+[31.646453] (-) TimerEvent: {}
+[31.751668] (-) TimerEvent: {}
+[31.858579] (-) TimerEvent: {}
+[31.959666] (-) TimerEvent: {}
+[32.069644] (-) TimerEvent: {}
+[32.173568] (-) TimerEvent: {}
+[32.209627] (autopatrol_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[32.210765] (autopatrol_interfaces) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[32.225493] (autopatrol_interfaces) StderrLine: {'line': b'    main()\n'}
+[32.233543] (autopatrol_interfaces) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[32.234179] (autopatrol_interfaces) StderrLine: {'line': b'    raise e\n'}
+[32.235977] (autopatrol_interfaces) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[32.238930] (autopatrol_interfaces) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[32.239385] (autopatrol_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string\n'}
+[32.239806] (autopatrol_interfaces) StderrLine: {'line': b"    raise InvalidPackage('Error(s):%s' % (''.join(['\\n- %s' % e for e in errors])), filename)\n"}
+[32.242865] (autopatrol_interfaces) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/vim3/myros/12-navigation/navigation_ws/src/autopatrol_interfaces/package.xml':\n"}
+[32.243783] (autopatrol_interfaces) StderrLine: {'line': b'Error(s):\n'}
+[32.246860] (autopatrol_interfaces) StderrLine: {'line': b'- The manifest of package "autopatrol_interfaces" (with format version 3) must not contain the following tags: member_of_packages\n'}
+[32.275616] (-) TimerEvent: {}
+[32.309564] (autopatrol_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[32.317691] (autopatrol_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[32.322696] (autopatrol_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[32.329064] (autopatrol_interfaces) StderrLine: {'line': b'  /home/vim3/myros/12-navigation/navigation_ws/src/autopatrol_interfaces/package.xml\n'}
+[32.329876] (autopatrol_interfaces) StderrLine: {'line': b'  /home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces/ament_cmake_core/package.cmake)\n'}
+[32.339598] (autopatrol_interfaces) StderrLine: {'line': b'  returned error code 1\n'}
+[32.346104] (autopatrol_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[32.348813] (autopatrol_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[32.349760] (autopatrol_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)\n'}
+[32.354629] (autopatrol_interfaces) StderrLine: {'line': b'  CMakeLists.txt:12 (rosidl_generate_interfaces)\n'}
+[32.358469] (autopatrol_interfaces) StderrLine: {'line': b'\n'}
+[32.359082] (autopatrol_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[32.364737] (autopatrol_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[32.369599] (autopatrol_interfaces) StdoutLine: {'line': b'See also "/home/vim3/myros/12-navigation/navigation_ws/build/autopatrol_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[32.380604] (-) TimerEvent: {}
+[32.489684] (-) TimerEvent: {}
+[32.627598] (autopatrol_interfaces) CommandEnded: {'returncode': 1}
+[32.629078] (-) TimerEvent: {}
+[32.644960] (autopatrol_interfaces) JobEnded: {'identifier': 'autopatrol_interfaces', 'rc': 1}
+[32.729762] (-) TimerEvent: {}
+[32.833598] (-) TimerEvent: {}
+[32.937468] (-) TimerEvent: {}
+[33.046595] (-) TimerEvent: {}
+[33.150111] (-) TimerEvent: {}
+[33.255028] (-) TimerEvent: {}
+[33.362707] (-) TimerEvent: {}
+[33.467922] (-) TimerEvent: {}
+[33.572693] (-) TimerEvent: {}
+[33.675792] (-) TimerEvent: {}
+[33.780070] (-) TimerEvent: {}
+[33.884633] (-) TimerEvent: {}
+[33.987958] (-) TimerEvent: {}
+[34.092785] (-) TimerEvent: {}
+[34.196799] (-) TimerEvent: {}
+[34.302724] (-) TimerEvent: {}
+[34.407947] (-) TimerEvent: {}
+[34.497926] (dongbot_application) StdoutLine: {'line': b'running egg_info\n'}
+[34.508933] (-) TimerEvent: {}
+[34.515853] (dongbot_application) StdoutLine: {'line': b'writing ../../build/dongbot_application/dongbot_application.egg-info/PKG-INFO\n'}
+[34.519048] (dongbot_application) StdoutLine: {'line': b'writing dependency_links to ../../build/dongbot_application/dongbot_application.egg-info/dependency_links.txt\n'}
+[34.528159] (dongbot_application) StdoutLine: {'line': b'writing entry points to ../../build/dongbot_application/dongbot_application.egg-info/entry_points.txt\n'}
+[34.528670] (dongbot_application) StdoutLine: {'line': b'writing requirements to ../../build/dongbot_application/dongbot_application.egg-info/requires.txt\n'}
+[34.529405] (dongbot_application) StdoutLine: {'line': b'writing top-level names to ../../build/dongbot_application/dongbot_application.egg-info/top_level.txt\n'}
+[34.537746] (dongbot_application) StdoutLine: {'line': b"reading manifest file '../../build/dongbot_application/dongbot_application.egg-info/SOURCES.txt'\n"}
+[34.538113] (dongbot_application) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[34.550582] (dongbot_application) StdoutLine: {'line': b"writing manifest file '../../build/dongbot_application/dongbot_application.egg-info/SOURCES.txt'\n"}
+[34.555592] (dongbot_application) StdoutLine: {'line': b'running build\n'}
+[34.559321] (dongbot_application) StdoutLine: {'line': b'running build_py\n'}
+[34.560867] (dongbot_application) StdoutLine: {'line': b'running install\n'}
+[34.565815] (dongbot_application) StdoutLine: {'line': b'running install_lib\n'}
+[34.590032] (dongbot_application) StdoutLine: {'line': b'running install_data\n'}
+[34.601719] (dongbot_application) StdoutLine: {'line': b'running install_egg_info\n'}
+[34.610901] (-) TimerEvent: {}
+[34.616615] (dongbot_application) StdoutLine: {'line': b"removing '/home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/python3.10/site-packages/dongbot_application-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[34.635124] (dongbot_application) StdoutLine: {'line': b'Copying ../../build/dongbot_application/dongbot_application.egg-info to /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/python3.10/site-packages/dongbot_application-0.0.0-py3.10.egg-info\n'}
+[34.652439] (dongbot_application) StdoutLine: {'line': b'running install_scripts\n'}
+[34.713754] (-) TimerEvent: {}
+[34.815077] (dongbot_application) StdoutLine: {'line': b'Installing get_robot_pose script to /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/dongbot_application\n'}
+[34.822554] (-) TimerEvent: {}
+[34.829177] (dongbot_application) StdoutLine: {'line': b'Installing init_robot_pose script to /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/dongbot_application\n'}
+[34.838690] (dongbot_application) StdoutLine: {'line': b'Installing nav_to_pose script to /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/dongbot_application\n'}
+[34.852631] (dongbot_application) StdoutLine: {'line': b'Installing waypoint_flollower script to /home/vim3/myros/12-navigation/navigation_ws/install/dongbot_application/lib/dongbot_application\n'}
+[34.859863] (dongbot_application) StdoutLine: {'line': b"writing list of installed files to '/home/vim3/myros/12-navigation/navigation_ws/build/dongbot_application/install.log'\n"}
+[34.926673] (-) TimerEvent: {}
+[34.975563] (dongbot_application) JobEnded: {'identifier': 'dongbot_application', 'rc': 'SIGINT'}
+[34.989508] (dongbot_description) JobSkipped: {'identifier': 'dongbot_description'}
+[34.989894] (dongbot_nav) JobSkipped: {'identifier': 'dongbot_nav'}
+[34.991916] (-) EventReactorShutdown: {}
